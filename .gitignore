@@ -1,0 +1,26 @@
+# Ignorar entornos virtuales
+venv/
+
+# Ignorar archivos de sistema y caché
+AppData/
+*.log
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar variables de entorno
+.env
+
+# Ignorar datos grandes
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Ignorar configuraciones específicas del entorno
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos grandes o temporales del sistema
+*.tmp
+*.bin
+*.blb
