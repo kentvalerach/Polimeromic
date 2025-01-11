@@ -264,10 +264,16 @@ def process_uploaded_file(contents, filename):
 
 
 # Ejecutar el servidor
-import os
+from dash import Dash
 
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8050))
-    app.run(host='0.0.0.0', port=port, debug=True)
+app = Dash(__name__)
+
+# Configuración de la app (layouts, callbacks, etc.)
+
+server = app.server  # Esto expone el servidor de Flask que Gunicorn busca
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080, debug=True)
+
 
 
