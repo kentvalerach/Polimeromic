@@ -18,6 +18,6 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 # Copiar el resto de los archivos
 COPY . /app
 
-# Exponer el puerto y configurar el comando de inicio
-EXPOSE 8050
-CMD ["python", "app.py"]
+# Ejecutar la aplicación
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "app:server"]
+
