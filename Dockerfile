@@ -21,6 +21,3 @@ COPY . /app
 # Exponer el puerto y configurar el comando de inicio
 EXPOSE 8000
 CMD ["python", "app.py"]
-
-# Comando para ejecutar la aplicación
-CMD ["python", "app.py"]
