@@ -19,5 +19,5 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 COPY . /app
 
 # Exponer el puerto y configurar el comando de inicio
-EXPOSE 8000
+EXPOSE 8050
 CMD ["python", "app.py"]
