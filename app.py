@@ -264,11 +264,8 @@ def process_uploaded_file(contents, filename):
 
 
 # Ejecutar el servidor
-from dash import Dash
 
-app = Dash(__name__)
 
-# Configuración de la app (layouts, callbacks, etc.)
 
 server = app.server  # Esto expone el servidor de Flask que Gunicorn busca
 
