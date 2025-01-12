@@ -17,7 +17,8 @@ import os
 load_dotenv()
 
 # Accede a las variables de entorno
-DATABASE_URL = os.getenv("DATABASE_URL")
+DATABASE_URL = os.getenv(postgresql://postgres:wDRvQVpvgyyloKpjkUJlkjnNvdsUKbOI@postgres.railway.internal:5432/railway
+)
 DEBUG = os.getenv("DEBUG", "False")  # Por defecto, "False" si no está definido
 
 
