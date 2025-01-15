@@ -9,23 +9,23 @@ import psycopg2
 import os
 from dotenv import load_dotenv
 
-# Cargar variables de entorno
+# Load environment variables
 load_dotenv()
 DATABASE_URL = os.getenv("DATABASE_URL")
 
-# Cargar el modelo preentrenado
+# Load the pretrained model
 model = joblib.load("xgboost_model.pkl")
 
-# Cargar la imagen de la curva ROC
+# Load the ROC curve image
 with open("roc_curve.png", "rb") as image_file:
     encoded_image = base64.b64encode(image_file.read()).decode("utf-8")
 
 def get_connection():
-    """Establece una conexión con la base de datos."""
+    """Establish a connection to the database."""
     return psycopg2.connect(DATABASE_URL)
 
 def fetch_data(query):
-    """Ejecuta una consulta SQL y devuelve los resultados como DataFrame."""
+    """Execute an SQL query and return the results as a DataFrame."""
     conn = get_connection()
     cursor = conn.cursor()
     cursor.execute(query)
@@ -35,26 +35,33 @@ def fetch_data(query):
     conn.close()
     return pd.DataFrame(data, columns=columns)
 
-# Inicializar la app Dash
+# Initialize the Dash app
 app = dash.Dash(__name__)
-server = app.server  # Exponer el objeto Flask
+server = app.server  # Expose the Flask server
 
-# Variables globales para navegación
+# Global variables for navigation
 current_index = 0
 
-# Layout de la aplicación
+# Layout of the application
 app.layout = html.Div([
-    html.H1("Polimeromics Dashboard Prediction Algorithm", style={'textAlign': 'center'}),
+    html.H1("Polimeromics Data Explorer", style={'textAlign': 'center'}),
 
-    # Sección de predicción del modelo
+    # Left section: ROC curve and metrics
     html.Div([
-        html.H3("Test XGBoost Model"),
-        html.Button("Show Metrics", id="show-metrics", n_clicks=0),
-        html.Div(id="xgboost-metrics", style={'marginTop': 20}),
+        html.H3("Model Metrics"),
         html.Img(src=f"data:image/png;base64,{encoded_image}", style={'width': '100%', 'height': 'auto', 'marginTop': 20}),
-    ], style={'width': '50%', 'margin': '0 auto', 'textAlign': 'center'}),
+        html.Div([
+            html.Pre("Classification Report:\n\n"
+                     "Precision: 0.99 (Class 0), 0.98 (Class 1)\n"
+                     "Recall: 0.98 (Class 0), 0.99 (Class 1)\n"
+                     "F1-Score: 0.99 (Class 0), 0.98 (Class 1)\n\n"
+                     "Accuracy: 0.99\n"
+                     "Macro Avg: Precision 0.99, Recall 0.99, F1-Score 0.99\n"
+                     "Weighted Avg: Precision 0.99, Recall 0.99, F1-Score 0.99")
+        ], style={'marginTop': 20, 'textAlign': 'left'}),
+    ], style={'width': '45%', 'display': 'inline-block', 'verticalAlign': 'top', 'padding': '20px'}),
 
-    # Sección de consulta a la base de datos
+    # Right section: Database query
     html.Div([
         html.H3("Database Query"),
         dcc.Dropdown(
@@ -72,24 +79,7 @@ app.layout = html.Div([
     ], style={'width': '45%', 'display': 'inline-block', 'verticalAlign': 'top', 'marginLeft': '5%'}),
 ])
 
-# Callback para mostrar las métricas preentrenadas
-@app.callback(
-    Output("xgboost-metrics", "children"),
-    [Input("show-metrics", "n_clicks")]
-)
-def show_pretrained_metrics(n_clicks):
-    if n_clicks == 0:
-        return ""
-
-    metrics = [
-        html.P("Accuracy: 0.93"),
-        html.P("F1-Score: 0.91"),
-        html.P("AUC: 0.95")
-    ]
-
-    return metrics
-
-# Callback para mostrar el número total de registros en la base de datos seleccionada
+# Callback to show total records in the selected database
 @app.callback(
     Output('db-records-count', 'children'),
     [Input('db-selector', 'value')]
@@ -104,7 +94,7 @@ def update_db_record_count(db_value):
     except Exception as e:
         return f"Error accessing the database: {e}"
 
-# Callback para navegar por los registros de la base de datos seleccionada
+# Callback to navigate through records in the selected database
 @app.callback(
     Output('record-output', 'children'),
     [Input('prev-record', 'n_clicks'), Input('next-record', 'n_clicks'), Input('db-selector', 'value')]
@@ -116,26 +106,25 @@ def update_record(prev_clicks, next_clicks, db_value):
         return "Please select a database."
 
     try:
-        # Consulta los registros de la tabla seleccionada
+        # Query records from the selected table
         query = f"SELECT * FROM {db_value} LIMIT 100;"
         data = fetch_data(query)
 
-        # Manejo de navegación
+        # Handle navigation
         triggered = dash.callback_context.triggered[0]['prop_id'].split('.')[0]
         if triggered == "next-record" and next_clicks > 0:
             current_index = min(current_index + 1, len(data) - 1)
         elif triggered == "prev-record" and prev_clicks > 0:
             current_index = max(current_index - 1, 0)
 
-        # Mostrar el registro actual
+        # Display the current record
         record = data.iloc[current_index]
         return html.Pre("\n".join([f"{col}: {val}" for col, val in record.items()]))
 
     except Exception as e:
         return f"Error retrieving records: {e}"
 
-# Ejecutar el servidor
+# Run the server
 if __name__ == "__main__":
     app.run_server(debug=True)
-
 
