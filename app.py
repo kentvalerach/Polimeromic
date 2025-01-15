@@ -135,4 +135,5 @@ def update_record(prev_clicks, next_clicks, db_value):
 
 # Ejecutar el servidor
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(host="0.0.0.0", port=8080, debug=True)
+
