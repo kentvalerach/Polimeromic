@@ -37,6 +37,7 @@ def fetch_data(query):
 
 # Inicializar la app Dash
 app = dash.Dash(__name__)
+server = app.server  # Exponer el objeto Flask
 
 # Variables globales para navegación
 current_index = 0
@@ -135,5 +136,6 @@ def update_record(prev_clicks, next_clicks, db_value):
 
 # Ejecutar el servidor
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080, debug=True)
+    app.run_server(debug=True)
+
 
