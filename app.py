@@ -4,6 +4,7 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 import pandas as pd
 import plotly.graph_objs as go
+import dash_html_components as html
 import joblib
 import psycopg2
 import os
@@ -60,7 +61,20 @@ app.layout = html.Div([
                      "Weighted Avg: Precision 0.99, Recall 0.99, F1-Score 0.99")
         ], style={'marginTop': 20, 'textAlign': 'left'}),
     ], style={'width': '45%', 'display': 'inline-block', 'verticalAlign': 'top', 'padding': '20px'}),
-
+# Texto descriptivo 
+description_text = html.Div([
+    html.P("The metrics shown are the result of a pre-trained XGBoost Machine Learning model that has been uploaded to this dashboard."),
+    html.P("You can access the Python script in the repository: "),
+    html.A("https://github.com/kentvalerach/Polimeromic", href="https://github.com/kentvalerach/Polimeromic", target="_blank"),
+    html.P("The results shown are the result of a Big Data transformation and cleaning process applied to biochemical data downloaded from:"),
+    html.Ul([
+        html.Li(html.A("https://www.rcsb.org/ (study data: RCSB_PDB_Macromolecular_Structure_Dataset)", 
+                       href="https://www.rcsb.org/", target="_blank")),
+        html.Li(html.A("https://thebiogrid.org/ (study data: BIOGRID-ORCS-ALL1-homo_sapiens-1.1.16.screens)", 
+                       href="https://thebiogrid.org/", target="_blank"))
+    ]),
+    html.P("This is an example of bioinformatics to be applied in scientific studies and laboratory tests.")
+], style={'fontSize': '14px', 'marginTop': '20px', 'lineHeight': '1.5'})
     # Right section: Database query
     html.Div([
         html.H3("Database Query"),
