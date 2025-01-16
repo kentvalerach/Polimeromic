@@ -60,7 +60,7 @@ app.layout = html.Div([
                      "Weighted Avg: Precision 0.99, Recall 0.99, F1-Score 0.99"\n\n"
                      "The metrics shown are the result of a pre-trained XGboost Machine Learning XGboost model that has been uploaded to\n" 
                      "this dashboard.You can access the Python script in the repository https://github.com/kentvalerach/Polimeromic  the\n" 
-                     "results shown is a Big data transformation and cleaning process applied to biochemical downloaded from:n"\n"
+                     "results shown is a Big data transformation and cleaning process applied to biochemical downloaded from:\n"
                      "https://www.rcsb.org/  study data: RCSB_PDB_Macromolecular_Structure_Datasetand from  https://thebiogrid.org\n"
                      "study data BIOGRID-ORCS-ALL1-homo_sapiens-1.1.16.screens.\n"
                      "This is an example of bioinformatics to be applied in scientific studies and laboratory tests.")
