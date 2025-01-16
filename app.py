@@ -97,7 +97,51 @@ app.layout = html.Div([
     ], style={'width': '45%', 'display': 'inline-block', 'verticalAlign': 'top', 'marginLeft': '5%'}),
 ])
 
-# Callbacks remain unchanged...
+# Callback to show total records in the selected database
+@app.callback(
+    Output('db-records-count', 'children'),
+    [Input('db-selector', 'value')]
+)
+def update_db_record_count(db_value):
+    if db_value is None:
+        return "Select a database to see the total number of records."
+    try:
+        query = f"SELECT COUNT(*) FROM {db_value};"
+        count = fetch_data(query).iloc[0, 0]
+        return f"Total number of records: {count}"
+    except Exception as e:
+        return f"Error accessing the database: {e}"
+
+# Callback to navigate through records in the selected database
+@app.callback(
+    Output('record-output', 'children'),
+    [Input('prev-record', 'n_clicks'), Input('next-record', 'n_clicks'), Input('db-selector', 'value')]
+)
+def update_record(prev_clicks, next_clicks, db_value):
+    global current_index
+
+    if db_value is None:
+        return "Please select a database."
+
+    try:
+        # Query records from the selected table
+        query = f"SELECT * FROM {db_value} LIMIT 100;"
+        data = fetch_data(query)
+
+        # Handle navigation
+        triggered = dash.callback_context.triggered[0]['prop_id'].split('.')[0]
+        if triggered == "next-record" and next_clicks > 0:
+            current_index = min(current_index + 1, len(data) - 1)
+        elif triggered == "prev-record" and prev_clicks > 0:
+            current_index = max(current_index - 1, 0)
+
+        # Display the current record
+        record = data.iloc[current_index]
+        return html.Pre("\n".join([f"{col}: {val}" for col, val in record.items()]))
+
+    except Exception as e:
+        return f"Error retrieving records: {e}"
+
 
 # Run the server
 if __name__ == "__main__":
