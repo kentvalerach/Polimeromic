@@ -59,7 +59,7 @@ app.layout = html.Div([
                      "Macro Avg: Precision 0.99, Recall 0.99, F1-Score 0.99\n"
                      "Weighted Avg: Precision 0.99, Recall 0.99, F1-Score 0.99")
         ], style={'marginTop': 20, 'textAlign': 'left'}),
-        # Texto descriptivo
+           # Texto descriptivo
 description_text = html.Div([
     html.P("The metrics shown are the result of a pre-trained XGBoost Machine Learning model that has been uploaded to this dashboard."),
     html.P("You can access the Python script in the repository: "),
