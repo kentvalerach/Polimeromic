@@ -42,6 +42,21 @@ server = app.server  # Expose the Flask server
 # Global variables for navigation
 current_index = 0
 
+# Texto descriptivo
+description_text = html.Div([
+    html.P("The metrics shown are the result of a pre-trained XGBoost Machine Learning model that has been uploaded to this dashboard."),
+    html.P("You can access the Python script in the repository: "),
+    html.A("https://github.com/kentvalerach/Polimeromic", href="https://github.com/kentvalerach/Polimeromic", target="_blank"),
+    html.P("The results shown are the result of a Big Data transformation and cleaning process applied to biochemical data downloaded from:"),
+    html.Ul([
+        html.Li(html.A("https://www.rcsb.org/ (study data: RCSB_PDB_Macromolecular_Structure_Dataset)", 
+                       href="https://www.rcsb.org/", target="_blank")),
+        html.Li(html.A("https://thebiogrid.org/ (study data: BIOGRID-ORCS-ALL1-homo_sapiens-1.1.16.screens)", 
+                       href="https://thebiogrid.org/", target="_blank"))
+    ]),
+    html.P("This is an example of bioinformatics to be applied in scientific studies and laboratory tests.")
+], style={'fontSize': '14px', 'marginTop': '20px', 'lineHeight': '1.5'})
+
 # Layout of the application
 app.layout = html.Div([
     html.H1("Polimeromics Data Explorer", style={'textAlign': 'center'}),
