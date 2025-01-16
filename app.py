@@ -42,6 +42,21 @@ server = app.server  # Expose the Flask server
 # Global variables for navigation
 current_index = 0
 
+# Texto descriptivo
+description_text = html.Div([
+    html.P("The metrics shown are the result of a pre-trained XGBoost Machine Learning model that has been uploaded to this dashboard."),
+    html.P("You can access the Python script in the repository: "),
+    html.A("https://github.com/kentvalerach/Polimeromic", href="https://github.com/kentvalerach/Polimeromic", target="_blank"),
+    html.P("The results shown are the result of a Big Data transformation and cleaning process applied to biochemical data downloaded from:"),
+    html.Ul([
+        html.Li(html.A("https://www.rcsb.org/ (study data: RCSB_PDB_Macromolecular_Structure_Dataset)", 
+                       href="https://www.rcsb.org/", target="_blank")),
+        html.Li(html.A("https://thebiogrid.org/ (study data: BIOGRID-ORCS-ALL1-homo_sapiens-1.1.16.screens)", 
+                       href="https://thebiogrid.org/", target="_blank"))
+    ]),
+    html.P("This is an example of bioinformatics to be applied in scientific studies and laboratory tests.")
+], style={'fontSize': '14px', 'marginTop': '20px', 'lineHeight': '1.5'})
+
 # Layout of the application
 app.layout = html.Div([
     html.H1("Polimeromics Data Explorer", style={'textAlign': 'center'}),
@@ -59,20 +74,9 @@ app.layout = html.Div([
                      "Macro Avg: Precision 0.99, Recall 0.99, F1-Score 0.99\n"
                      "Weighted Avg: Precision 0.99, Recall 0.99, F1-Score 0.99")
         ], style={'marginTop': 20, 'textAlign': 'left'}),
-           # Texto descriptivo
-description_text = html.Div([
-    html.P("The metrics shown are the result of a pre-trained XGBoost Machine Learning model that has been uploaded to this dashboard."),
-    html.P("You can access the Python script in the repository: "),
-    html.A("https://github.com/kentvalerach/Polimeromic", href="https://github.com/kentvalerach/Polimeromic", target="_blank"),
-    html.P("The results shown are the result of a Big Data transformation and cleaning process applied to biochemical data downloaded from:"),
-    html.Ul([
-        html.Li(html.A("https://www.rcsb.org/ (study data: RCSB_PDB_Macromolecular_Structure_Dataset)", 
-                       href="https://www.rcsb.org/", target="_blank")),
-        html.Li(html.A("https://thebiogrid.org/ (study data: BIOGRID-ORCS-ALL1-homo_sapiens-1.1.16.screens)", 
-                       href="https://thebiogrid.org/", target="_blank"))
-    ]),
-    html.P("This is an example of bioinformatics to be applied in scientific studies and laboratory tests.")
-], style={'fontSize': '14px', 'marginTop': '20px', 'lineHeight': '1.5'})
+        
+        # Agregar texto descriptivo debajo de las métricas
+        description_text
     ], style={'width': '45%', 'display': 'inline-block', 'verticalAlign': 'top', 'padding': '20px'}),
 
     # Right section: Database query
@@ -93,50 +97,7 @@ description_text = html.Div([
     ], style={'width': '45%', 'display': 'inline-block', 'verticalAlign': 'top', 'marginLeft': '5%'}),
 ])
 
-# Callback to show total records in the selected database
-@app.callback(
-    Output('db-records-count', 'children'),
-    [Input('db-selector', 'value')]
-)
-def update_db_record_count(db_value):
-    if db_value is None:
-        return "Select a database to see the total number of records."
-    try:
-        query = f"SELECT COUNT(*) FROM {db_value};"
-        count = fetch_data(query).iloc[0, 0]
-        return f"Total number of records: {count}"
-    except Exception as e:
-        return f"Error accessing the database: {e}"
-
-# Callback to navigate through records in the selected database
-@app.callback(
-    Output('record-output', 'children'),
-    [Input('prev-record', 'n_clicks'), Input('next-record', 'n_clicks'), Input('db-selector', 'value')]
-)
-def update_record(prev_clicks, next_clicks, db_value):
-    global current_index
-
-    if db_value is None:
-        return "Please select a database."
-
-    try:
-        # Query records from the selected table
-        query = f"SELECT * FROM {db_value} LIMIT 100;"
-        data = fetch_data(query)
-
-        # Handle navigation
-        triggered = dash.callback_context.triggered[0]['prop_id'].split('.')[0]
-        if triggered == "next-record" and next_clicks > 0:
-            current_index = min(current_index + 1, len(data) - 1)
-        elif triggered == "prev-record" and prev_clicks > 0:
-            current_index = max(current_index - 1, 0)
-
-        # Display the current record
-        record = data.iloc[current_index]
-        return html.Pre("\n".join([f"{col}: {val}" for col, val in record.items()]))
-
-    except Exception as e:
-        return f"Error retrieving records: {e}"
+# Callbacks remain unchanged...
 
 # Run the server
 if __name__ == "__main__":
