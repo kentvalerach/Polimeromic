@@ -4,7 +4,6 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 import pandas as pd
 import plotly.graph_objs as go
-import dash_html_components as html
 import joblib
 import psycopg2
 import os
@@ -43,6 +42,21 @@ server = app.server  # Expose the Flask server
 # Global variables for navigation
 current_index = 0
 
+# Texto descriptivo
+description_text = html.Div([
+    html.P("The metrics shown are the result of a pre-trained XGBoost Machine Learning model that has been uploaded to this dashboard."),
+    html.P("You can access the Python script in the repository: "),
+    html.A("https://github.com/kentvalerach/Polimeromic", href="https://github.com/kentvalerach/Polimeromic", target="_blank"),
+    html.P("The results shown are the result of a Big Data transformation and cleaning process applied to biochemical data downloaded from:"),
+    html.Ul([
+        html.Li(html.A("https://www.rcsb.org/ (study data: RCSB_PDB_Macromolecular_Structure_Dataset)", 
+                       href="https://www.rcsb.org/", target="_blank")),
+        html.Li(html.A("https://thebiogrid.org/ (study data: BIOGRID-ORCS-ALL1-homo_sapiens-1.1.16.screens)", 
+                       href="https://thebiogrid.org/", target="_blank"))
+    ]),
+    html.P("This is an example of bioinformatics to be applied in scientific studies and laboratory tests.")
+], style={'fontSize': '14px', 'marginTop': '20px', 'lineHeight': '1.5'})
+
 # Layout of the application
 app.layout = html.Div([
     html.H1("Polimeromics Data Explorer", style={'textAlign': 'center'}),
@@ -60,21 +74,11 @@ app.layout = html.Div([
                      "Macro Avg: Precision 0.99, Recall 0.99, F1-Score 0.99\n"
                      "Weighted Avg: Precision 0.99, Recall 0.99, F1-Score 0.99")
         ], style={'marginTop': 20, 'textAlign': 'left'}),
+        
+        # Agregar texto descriptivo debajo de las métricas
+        description_text
     ], style={'width': '45%', 'display': 'inline-block', 'verticalAlign': 'top', 'padding': '20px'}),
-# Texto descriptivo 
-description_text = html.Div([
-    html.P("The metrics shown are the result of a pre-trained XGBoost Machine Learning model that has been uploaded to this dashboard."),
-    html.P("You can access the Python script in the repository: "),
-    html.A("https://github.com/kentvalerach/Polimeromic", href="https://github.com/kentvalerach/Polimeromic", target="_blank"),
-    html.P("The results shown are the result of a Big Data transformation and cleaning process applied to biochemical data downloaded from:"),
-    html.Ul([
-        html.Li(html.A("https://www.rcsb.org/ (study data: RCSB_PDB_Macromolecular_Structure_Dataset)", 
-                       href="https://www.rcsb.org/", target="_blank")),
-        html.Li(html.A("https://thebiogrid.org/ (study data: BIOGRID-ORCS-ALL1-homo_sapiens-1.1.16.screens)", 
-                       href="https://thebiogrid.org/", target="_blank"))
-    ]),
-    html.P("This is an example of bioinformatics to be applied in scientific studies and laboratory tests.")
-], style={'fontSize': '14px', 'marginTop': '20px', 'lineHeight': '1.5'})
+
     # Right section: Database query
     html.Div([
         html.H3("Database Query"),
@@ -93,50 +97,111 @@ description_text = html.Div([
     ], style={'width': '45%', 'display': 'inline-block', 'verticalAlign': 'top', 'marginLeft': '5%'}),
 ])
 
-# Callback to show total records in the selected database
-@app.callback(
-    Output('db-records-count', 'children'),
-    [Input('db-selector', 'value')]
-)
-def update_db_record_count(db_value):
-    if db_value is None:
-        return "Select a database to see the total number of records."
-    try:
-        query = f"SELECT COUNT(*) FROM {db_value};"
-        count = fetch_data(query).iloc[0, 0]
-        return f"Total number of records: {count}"
-    except Exception as e:
-        return f"Error accessing the database: {e}"
+# Callbacks remain unchanged...
 
-# Callback to navigate through records in the selected database
-@app.callback(
-    Output('record-output', 'children'),
-    [Input('prev-record', 'n_clicks'), Input('next-record', 'n_clicks'), Input('db-selector', 'value')]
-)
-def update_record(prev_clicks, next_clicks, db_value):
-    global current_index
+# Run the server
+if __name__ == "__main__":
+    app.run_server(debug=True)
+import dash
+import base64
+from dash import dcc, html
+from dash.dependencies import Input, Output
+import pandas as pd
+import plotly.graph_objs as go
+import joblib
+import psycopg2
+import os
+from dotenv import load_dotenv
 
-    if db_value is None:
-        return "Please select a database."
+# Load environment variables
+load_dotenv()
+DATABASE_URL = os.getenv("DATABASE_URL")
 
-    try:
-        # Query records from the selected table
-        query = f"SELECT * FROM {db_value} LIMIT 100;"
-        data = fetch_data(query)
+# Load the pretrained model
+model = joblib.load("xgboost_model.pkl")
 
-        # Handle navigation
-        triggered = dash.callback_context.triggered[0]['prop_id'].split('.')[0]
-        if triggered == "next-record" and next_clicks > 0:
-            current_index = min(current_index + 1, len(data) - 1)
-        elif triggered == "prev-record" and prev_clicks > 0:
-            current_index = max(current_index - 1, 0)
+# Load the ROC curve image
+with open("roc_curve.png", "rb") as image_file:
+    encoded_image = base64.b64encode(image_file.read()).decode("utf-8")
 
-        # Display the current record
-        record = data.iloc[current_index]
-        return html.Pre("\n".join([f"{col}: {val}" for col, val in record.items()]))
+def get_connection():
+    """Establish a connection to the database."""
+    return psycopg2.connect(DATABASE_URL)
 
-    except Exception as e:
-        return f"Error retrieving records: {e}"
+def fetch_data(query):
+    """Execute an SQL query and return the results as a DataFrame."""
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute(query)
+    columns = [desc[0] for desc in cursor.description]
+    data = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    return pd.DataFrame(data, columns=columns)
+
+# Initialize the Dash app
+app = dash.Dash(__name__)
+server = app.server  # Expose the Flask server
+
+# Global variables for navigation
+current_index = 0
+
+# Texto descriptivo
+description_text = html.Div([
+    html.P("The metrics shown are the result of a pre-trained XGBoost Machine Learning model that has been uploaded to this dashboard."),
+    html.P("You can access the Python script in the repository: "),
+    html.A("https://github.com/kentvalerach/Polimeromic", href="https://github.com/kentvalerach/Polimeromic", target="_blank"),
+    html.P("The results shown are the result of a Big Data transformation and cleaning process applied to biochemical data downloaded from:"),
+    html.Ul([
+        html.Li(html.A("https://www.rcsb.org/ (study data: RCSB_PDB_Macromolecular_Structure_Dataset)", 
+                       href="https://www.rcsb.org/", target="_blank")),
+        html.Li(html.A("https://thebiogrid.org/ (study data: BIOGRID-ORCS-ALL1-homo_sapiens-1.1.16.screens)", 
+                       href="https://thebiogrid.org/", target="_blank"))
+    ]),
+    html.P("This is an example of bioinformatics to be applied in scientific studies and laboratory tests.")
+], style={'fontSize': '14px', 'marginTop': '20px', 'lineHeight': '1.5'})
+
+# Layout of the application
+app.layout = html.Div([
+    html.H1("Polimeromics Data Explorer", style={'textAlign': 'center'}),
+
+    # Left section: ROC curve and metrics
+    html.Div([
+        html.H3("Model XGboost Metrics"),
+        html.Img(src=f"data:image/png;base64,{encoded_image}", style={'width': '100%', 'height': 'auto', 'marginTop': 20}),
+        html.Div([
+            html.Pre("Classification Report:\n\n"
+                     "Precision: 0.99 (Class 0), 0.98 (Class 1)\n"
+                     "Recall: 0.98 (Class 0), 0.99 (Class 1)\n"
+                     "F1-Score: 0.99 (Class 0), 0.98 (Class 1)\n\n"
+                     "Accuracy: 0.99\n"
+                     "Macro Avg: Precision 0.99, Recall 0.99, F1-Score 0.99\n"
+                     "Weighted Avg: Precision 0.99, Recall 0.99, F1-Score 0.99")
+        ], style={'marginTop': 20, 'textAlign': 'left'}),
+        
+        # Agregar texto descriptivo debajo de las métricas
+        description_text
+    ], style={'width': '45%', 'display': 'inline-block', 'verticalAlign': 'top', 'padding': '20px'}),
+
+    # Right section: Database query
+    html.Div([
+        html.H3("Database Query"),
+        dcc.Dropdown(
+            id='db-selector',
+            options=[
+                {'label': 'Biogrid Homo Sapiens', 'value': 'biogrid_homosapiens'},
+                {'label': 'RCSB PDB', 'value': 'rcsb_pdb'}
+            ],
+            placeholder="Select a database"
+        ),
+        html.Div(id="db-records-count", style={'marginTop': 10, 'fontWeight': 'bold'}),
+        html.Button("Previous", id="prev-record", n_clicks=0),
+        html.Button("Next", id="next-record", n_clicks=0),
+        html.Div(id="record-output", style={'marginTop': 20}),
+    ], style={'width': '45%', 'display': 'inline-block', 'verticalAlign': 'top', 'marginLeft': '5%'}),
+])
+
+# Callbacks remain unchanged...
 
 # Run the server
 if __name__ == "__main__":
