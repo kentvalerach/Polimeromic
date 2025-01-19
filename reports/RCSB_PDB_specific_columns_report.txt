@@ -1,0 +1,24 @@
+Columna: Crystallization Method
+Valores nulos: 297 (2.51%)
+- Valores nulos imputados con 'Desconocido'.
+Columna: Crystal Growth Procedure
+Valores nulos: 50 (0.42%)
+- Valores nulos imputados con 'Desconocido'.
+Columna: EC Number
+Valores nulos: 674 (5.70%)
+- Valores nulos imputados con 'Desconocido'.
+Columna: EC Provenance Source
+Valores nulos: 674 (5.70%)
+- Valores nulos imputados con 'Desconocido'.
+Columna: Ligand ID
+Valores nulos: 917 (7.75%)
+- Valores nulos imputados con 'Desconocido'.
+Columna: Ligand Formula
+Valores nulos: 711 (6.01%)
+- Valores nulos imputados con 'Desconocido'.
+Columna: Ligand Name
+Valores nulos: 707 (5.98%)
+- Valores nulos imputados con 'Desconocido'.
+Columna: InChI
+Valores nulos: 736 (6.22%)
+- Valores nulos imputados con 'Desconocido'.

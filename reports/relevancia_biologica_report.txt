@@ -1,0 +1,45 @@
+=== Reporte de Relevancia Biológica ===
+
+=== Estadísticas generales ===
+           IDENTIFIER_ID IDENTIFIER_TYPE OFFICIAL_SYMBOL  ALIASES ORGANISM_OFFICIAL        SCORE.1       SCORE.2     HIT      unique_id
+count             275297          275297          275297   275297            275297  275297.000000  2.752970e+05  275297  275297.000000
+unique             82754               3           65993    20638                 3            NaN           NaN       4            NaN
+top     9974575782587363     ENTREZ_GENE          ZNF445  UNKNOWN      Homo sapiens            NaN           NaN      NO            NaN
+freq                1736          235262              22    65305            275294            NaN           NaN  144822            NaN
+mean                 NaN             NaN             NaN      NaN               NaN       0.610870  7.014585e-02     NaN  137649.000000
+std                  NaN             NaN             NaN      NaN               NaN       0.162395  1.940387e-01     NaN   79471.542866
+min                  NaN             NaN             NaN      NaN               NaN       0.000000  0.000000e+00     NaN       1.000000
+25%                  NaN             NaN             NaN      NaN               NaN       0.573190  3.497260e-11     NaN   68825.000000
+50%                  NaN             NaN             NaN      NaN               NaN       0.616041  3.497260e-11     NaN  137649.000000
+75%                  NaN             NaN             NaN      NaN               NaN       0.666511  9.218850e-11     NaN  206473.000000
+max                  NaN             NaN             NaN      NaN               NaN       1.000000  1.000000e+00     NaN  275297.000000
+
+=== Distribución por Organismo ===
+Homo sapiens    275294
+UNKNOWN              2
+H sapiens            1
+
+=== Estadísticas de SCORE.1 y SCORE.2 ===
+             SCORE.1       SCORE.2
+count  275297.000000  2.752970e+05
+mean        0.610870  7.014585e-02
+std         0.162395  1.940387e-01
+min         0.000000  0.000000e+00
+25%         0.573190  3.497260e-11
+50%         0.616041  3.497260e-11
+75%         0.666511  9.218850e-11
+max         1.000000  1.000000e+00
+
+=== Interacciones con altos puntajes ===
+Total: 159
+IDENTIFIER_ID IDENTIFIER_TYPE OFFICIAL_SYMBOL                  ALIASES ORGANISM_OFFICIAL  SCORE.1  SCORE.2 HIT  unique_id
+       69073U         UNKNOWN        TBC1D29P                  UNKNOWN      Homo sapiens      1.0      1.0 YES     238035
+       69688U         UNKNOWN          POLR1F                  UNKNOWN      Homo sapiens      1.0      1.0 YES     238036
+       643751     ENTREZ_GENE         CDC42P6                  UNKNOWN      Homo sapiens      1.0      1.0 YES     238037
+    100874095     ENTREZ_GENE       ADIPOQAS1                  UNKNOWN      Homo sapiens      1.0      1.0 YES     238038
+       60348U         UNKNOWN            H110                  UNKNOWN      Homo sapiens      1.0      1.0  NO     238039
+       159125     ENTREZ_GENE         RBMY2EP                  UNKNOWN      Homo sapiens      1.0      1.0  NO     238040
+       643827     ENTREZ_GENE       CNTNAP3P2                  UNKNOWN      Homo sapiens      1.0      1.0  NO     238041
+       60267U         UNKNOWN           H2AZ2                  UNKNOWN      Homo sapiens      1.0      1.0  NO     238042
+       400156     ENTREZ_GENE        RPS26P47 RPS26RPS26LRPS26_24_1332      Homo sapiens      1.0      1.0  NO     238043
+       392256     ENTREZ_GENE         RPS26P6             RPS26_10_933      Homo sapiens      1.0      1.0  NO     238044

@@ -1,0 +1,465 @@
+{
+    "file": "cleaned_block_6.csv",
+    "chunks": [
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 18100,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 0,
+                "SCORE.3": 54611,
+                "SCORE.4": 78339,
+                "SCORE.5": 78339,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 1525.87763,
+                    "std": 296.06929845194855,
+                    "min": 1256.0,
+                    "25%": 1257.0,
+                    "50%": 1258.0,
+                    "75%": 1803.0,
+                    "max": 1891.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": 2345.794327637015,
+                    "std": 5327.063499143581,
+                    "min": -2.983001755,
+                    "25%": -0.7844629737500001,
+                    "50%": 0.039840020500000004,
+                    "75%": 0.8883875,
+                    "max": 21661.0
+                },
+                "SCORE.2": {
+                    "count": 100000.0,
+                    "mean": 0.6168733621893935,
+                    "std": 0.2998724860201153,
+                    "min": 2.17e-06,
+                    "25%": 0.4409875,
+                    "50%": 0.6371499545,
+                    "75%": 0.8190298522499999,
+                    "max": 1.450384718
+                },
+                "SCORE.3": {
+                    "count": 45389.0,
+                    "mean": 5169.401322417151,
+                    "std": 6922.581983699956,
+                    "min": 0.986831,
+                    "25%": 0.999885,
+                    "50%": 0.999885,
+                    "75%": 10314.0,
+                    "max": 21661.0
+                },
+                "SCORE.4": {
+                    "count": 21661.0,
+                    "mean": 0.4013325953053881,
+                    "std": 0.3150075620293468,
+                    "min": 0.0,
+                    "25%": 0.11378,
+                    "50%": 0.32201,
+                    "75%": 0.64875,
+                    "max": 0.99999
+                },
+                "SCORE.5": {
+                    "count": 21661.0,
+                    "mean": 0.06119175723567115,
+                    "std": 0.3757630247541323,
+                    "min": -1.0028,
+                    "25%": -0.1726,
+                    "50%": 0.064822,
+                    "75%": 0.31126,
+                    "max": 1.1058
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 11458,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 0,
+                "SCORE.3": 17305,
+                "SCORE.4": 78085,
+                "SCORE.5": 78085,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 1679.9219,
+                    "std": 274.34018273975886,
+                    "min": 1256.0,
+                    "25%": 1639.0,
+                    "50%": 1640.0,
+                    "75%": 1642.0,
+                    "max": 2124.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -0.5396086639522977,
+                    "std": 2.072074069240785,
+                    "min": -10.99108732,
+                    "25%": -1.8801037952500002,
+                    "50%": 0.092549478,
+                    "75%": 0.7368498755,
+                    "max": 7.315782846
+                },
+                "SCORE.2": {
+                    "count": 100000.0,
+                    "mean": 0.4983520952378261,
+                    "std": 0.37943697150098615,
+                    "min": 2.1e-06,
+                    "25%": 0.10802440925000001,
+                    "50%": 0.48595416950000003,
+                    "75%": 0.9265123953910434,
+                    "max": 1.374555549
+                },
+                "SCORE.3": {
+                    "count": 82695.0,
+                    "mean": 0.41792308718516,
+                    "std": 0.3112200609235412,
+                    "min": 3.19e-06,
+                    "25%": 0.1310725115,
+                    "50%": 0.377577201,
+                    "75%": 0.670220847,
+                    "max": 1.0
+                },
+                "SCORE.4": {
+                    "count": 21915.0,
+                    "mean": 0.9842860021579648,
+                    "std": 0.0244511995027155,
+                    "min": 0.901802,
+                    "25%": 0.960608,
+                    "50%": 1.0,
+                    "75%": 1.0,
+                    "max": 1.0
+                },
+                "SCORE.5": {
+                    "count": 21915.0,
+                    "mean": 0.015153407992443387,
+                    "std": 0.37245512746056686,
+                    "min": -1.0779,
+                    "25%": -0.191925,
+                    "50%": 0.027039,
+                    "75%": 0.27063499999999996,
+                    "max": 1.0799
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 8033,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 0,
+                "SCORE.3": 0,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 1643.3701,
+                    "std": 2.2144243104551196,
+                    "min": 1639.0,
+                    "25%": 1641.0,
+                    "50%": 1643.0,
+                    "75%": 1645.0,
+                    "max": 1646.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -0.006065781896300217,
+                    "std": 0.6351086120165786,
+                    "min": -2.823523243,
+                    "25%": -0.29452429475,
+                    "50%": 0.023274021,
+                    "75%": 0.29954838775,
+                    "max": 2.952051671
+                },
+                "SCORE.2": {
+                    "count": 100000.0,
+                    "mean": 0.4244397126292009,
+                    "std": 0.31075790500381706,
+                    "min": 2.01e-06,
+                    "25%": 0.1278762155,
+                    "50%": 0.4018436835,
+                    "75%": 0.6950495975000001,
+                    "max": 0.999989572
+                },
+                "SCORE.3": {
+                    "count": 100000.0,
+                    "mean": 0.6824865073812723,
+                    "std": 0.27454334791190593,
+                    "min": 0.000718232,
+                    "25%": 0.50250325225,
+                    "50%": 0.7609729675,
+                    "75%": 0.911592438,
+                    "max": 0.999989572
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 36433,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 0,
+                "SCORE.3": 63954,
+                "SCORE.4": 89492,
+                "SCORE.5": 89492,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 89492.0,
+                    "mean": 1309.9492580342378,
+                    "std": 211.183625499878,
+                    "min": 1176.0,
+                    "25%": 1176.0,
+                    "50%": 1177.0,
+                    "75%": 1644.0,
+                    "max": 1646.0
+                },
+                "ORGANISM_ID": {
+                    "count": 89492.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 89492.0,
+                    "mean": -0.01068990812508374,
+                    "std": 0.22476966155815697,
+                    "min": -1.144611032,
+                    "25%": -0.0371779765,
+                    "50%": 0.0028132635166837,
+                    "75%": 0.03807687975,
+                    "max": 1.042259352
+                },
+                "SCORE.2": {
+                    "count": 89492.0,
+                    "mean": 0.45290276168143756,
+                    "std": 0.3066773523910525,
+                    "min": 4.56e-10,
+                    "25%": 0.17507911625,
+                    "50%": 0.4294065145,
+                    "75%": 0.7193744205,
+                    "max": 1.0
+                },
+                "SCORE.3": {
+                    "count": 25538.0,
+                    "mean": 0.7926851515208254,
+                    "std": 0.20139633205255658,
+                    "min": 0.186594292,
+                    "25%": 0.684442708,
+                    "50%": 0.8482292,
+                    "75%": 0.961468638,
+                    "max": 0.999965876
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        }
+    ]
+}

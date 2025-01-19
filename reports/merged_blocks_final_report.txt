@@ -1,0 +1,28 @@
+=== Información general ===
+Total de filas: 1076101
+Total de columnas: 8
+IDs únicos: 82754
+
+=== Valores nulos por columna ===
+IDENTIFIER_ID        0
+IDENTIFIER_TYPE      0
+OFFICIAL_SYMBOL      0
+ALIASES              0
+ORGANISM_OFFICIAL    0
+SCORE.1              0
+SCORE.2              0
+HIT                  0
+
+=== Estadísticas descriptivas ===
+       IDENTIFIER_ID IDENTIFIER_TYPE OFFICIAL_SYMBOL  ALIASES ORGANISM_OFFICIAL       SCORE.1       SCORE.2      HIT
+count        1076101         1076101         1076101  1076101           1076101  1.076101e+06  1.076101e+06  1076101
+unique         82754               3           65993    20638                 3           NaN           NaN        4
+top           77294U     ENTREZ_GENE             NTC  UNKNOWN      Homo sapiens           NaN           NaN       NO
+freq           12786          981185           12786   178273           1076098           NaN           NaN   543798
+mean             NaN             NaN             NaN      NaN               NaN  6.040431e-01  3.183583e-02      NaN
+std              NaN             NaN             NaN      NaN               NaN  1.606044e-01  1.315191e-01      NaN
+min              NaN             NaN             NaN      NaN               NaN  0.000000e+00  0.000000e+00      NaN
+25%              NaN             NaN             NaN      NaN               NaN  5.744413e-01  3.497260e-11      NaN
+50%              NaN             NaN             NaN      NaN               NaN  6.162370e-01  3.497260e-11      NaN
+75%              NaN             NaN             NaN      NaN               NaN  6.591499e-01  6.693030e-11      NaN
+max              NaN             NaN             NaN      NaN               NaN  1.000000e+00  1.000000e+00      NaN

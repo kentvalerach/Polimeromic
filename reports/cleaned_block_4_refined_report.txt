@@ -1,0 +1,46 @@
+=== Información general ===
+Número de filas: 4611289
+Número de columnas: 8
+
+=== Tipos de datos y columnas ===
+IDENTIFIER_ID         object
+IDENTIFIER_TYPE       object
+OFFICIAL_SYMBOL       object
+ALIASES               object
+ORGANISM_OFFICIAL     object
+SCORE.1              float64
+SCORE.2              float64
+HIT                   object
+
+=== Duplicados ===
+Número de duplicados: 0
+
+=== Valores nulos ===
+No hay valores nulos.
+
+=== Estadísticas descriptivas ===
+       IDENTIFIER_ID IDENTIFIER_TYPE OFFICIAL_SYMBOL  ALIASES ORGANISM_OFFICIAL        SCORE.1        SCORE.2      HIT
+count        4611289         4611289         4611289  4611289           4611289        4611289        4611289  4611289
+unique         30366               3           29479    19386                 1            NaN            NaN        2
+top            2235U     ENTREZ_GENE               0  UNKNOWN      Homo sapiens            NaN            NaN       NO
+freq            1997         4580962            1997   415650           4611289            NaN            NaN  4320688
+mean             NaN             NaN             NaN      NaN               NaN 0.502179005293 0.472042578736      NaN
+std              NaN             NaN             NaN      NaN               NaN 0.242719679928 0.198117656934      NaN
+min              NaN             NaN             NaN      NaN               NaN              0              0      NaN
+25%              NaN             NaN             NaN      NaN               NaN 0.375586077432 0.375789625761      NaN
+50%              NaN             NaN             NaN      NaN               NaN 0.445886023616 0.409138800682      NaN
+75%              NaN             NaN             NaN      NaN               NaN 0.619091397081  0.61998939111      NaN
+max              NaN             NaN             NaN      NaN               NaN              1              1      NaN
+
+=== Valores únicos por columna ===
+IDENTIFIER_ID          30366
+IDENTIFIER_TYPE            3
+OFFICIAL_SYMBOL        29479
+ALIASES                19386
+ORGANISM_OFFICIAL          1
+SCORE.1              2213889
+SCORE.2               411829
+HIT                        2
+
+=== Tamaño del archivo ===
+Tamaño en memoria: 281.45 MB

@@ -1,0 +1,169 @@
+=== Información general ===
+Número de filas: 11832
+Número de columnas: 46
+
+=== Tipos de datos y columnas ===
+Entry ID                                                         object
+Experimental Method                                              object
+Matthews Coefficient                                            float64
+Percent Solvent Content                                         float64
+Crystallization Method                                           object
+pH                                                              float64
+Crystal Growth Procedure                                         object
+Temp (K)                                                        float64
+Deposition Date                                                  object
+Release Date                                                     object
+Number of Non-Hydrogen Atoms per Deposited Model                float64
+Total Number of Polymer Instances (Chains)                      float64
+Total Number of Polymer Residues per Deposited Model            float64
+Number of Water Molecules per Deposited Model                   float64
+Disulfide Bond Count per Deposited Model                        float64
+Molecular Weight per Deposited Model                            float64
+Number of Distinct Protein Entities                             float64
+Refinement Resolution (Å)                                        object
+Structure Determination Methodology                              object
+Average B Factor                                                float64
+R Free                                                          float64
+R Work                                                          float64
+Structure Title                                                  object
+Sequence                                                         object
+Entity Polymer Type                                              object
+Polymer Entity Sequence Length                                  float64
+Entity Macromolecule Type                                        object
+Total Number of polymer Entity Instances (Chains) per Entity    float64
+Molecular Weight (Entity)                                       float64
+Macromolecule Name                                               object
+EC Number                                                        object
+EC Provenance Source                                             object
+Source Organism                                                  object
+Taxonomy ID                                                     float64
+Total Number of Polymer Residues per Assembly                   float64
+Total Number of Polymer Instances (Chains) per Assembly         float64
+Oligomeric Count                                                float64
+Assembly ID                                                     float64
+Oligomeric State                                                 object
+Stoichiometry                                                    object
+Ligand ID                                                        object
+Ligand Formula                                                   object
+Ligand MW                                                       float64
+Ligand Name                                                      object
+InChI                                                            object
+Ligand of Interest                                               object
+
+=== Duplicados ===
+Número de duplicados: 0
+
+=== Valores nulos ===
+Matthews Coefficient                              131
+Percent Solvent Content                           131
+Crystallization Method                            297
+pH                                               4049
+Crystal Growth Procedure                           50
+Temp (K)                                          316
+Number of Water Molecules per Deposited Model     329
+Disulfide Bond Count per Deposited Model         9419
+Average B Factor                                 2251
+R Free                                             16
+R Work                                             19
+EC Number                                         674
+EC Provenance Source                              674
+Ligand ID                                         917
+Ligand Formula                                    711
+Ligand MW                                         736
+Ligand Name                                       707
+InChI                                             736
+Ligand of Interest                               9172
+
+=== Estadísticas descriptivas resumidas ===
+       Entry ID Experimental Method  Matthews Coefficient  Percent Solvent Content         Crystallization Method           pH                                                                                                                     Crystal Growth Procedure      Temp (K) Deposition Date Release Date  Number of Non-Hydrogen Atoms per Deposited Model  Total Number of Polymer Instances (Chains)  Total Number of Polymer Residues per Deposited Model  Number of Water Molecules per Deposited Model  Disulfide Bond Count per Deposited Model  Molecular Weight per Deposited Model  Number of Distinct Protein Entities Refinement Resolution (Å) Structure Determination Methodology  Average B Factor        R Free        R Work                                           Structure Title                                                                                                                                                                                                                                                              Sequence Entity Polymer Type  Polymer Entity Sequence Length Entity Macromolecule Type  Total Number of polymer Entity Instances (Chains) per Entity  Molecular Weight (Entity)    Macromolecule Name EC Number EC Provenance Source Source Organism   Taxonomy ID  Total Number of Polymer Residues per Assembly  Total Number of Polymer Instances (Chains) per Assembly  Oligomeric Count  Assembly ID Oligomeric State Stoichiometry Ligand ID Ligand Formula     Ligand MW Ligand Name            InChI Ligand of Interest
+count     11832               11832          11701.000000             11701.000000                          11535  7783.000000                                                                                                                                        11782  11516.000000           11832        11832                                      11832.000000                                11832.000000                                          11832.000000                                   11503.000000                               2413.000000                          11832.000000                         11832.000000                     11832                               11832       9581.000000  11816.000000  11813.000000                                                     11832                                                                                                                                                                                                                                                                 11832               11832                    11832.000000                     11832                                                  11832.000000               11832.000000                 11832     11158                11158           11832  1.183200e+04                                   11832.000000                                             11832.000000      11832.000000      11832.0            11832         11832     10915          11121  11096.000000       11125            11096               2660
+unique    11832                   2                   NaN                      NaN                             15          NaN                                                                                                                                         7232           NaN            2703          507                                               NaN                                         NaN                                                   NaN                                            NaN                                       NaN                                   NaN                                  NaN                      1401                                   1               NaN           NaN           NaN                                                     11076                                                                                                                                                                                                                                                                  4396                   3                             NaN                         4                                                           NaN                        NaN                  1909       476                    1              90           NaN                                            NaN                                                      NaN               NaN          NaN               20            40      3822           3453           NaN        3819             3817                  1
+top        6SJZ   X-RAY DIFFRACTION                   NaN                      NaN  VAPOR DIFFUSION, SITTING DROP          NaN  5-20 mg/mL protein in 25mM HEPES/NaOH pH7.5, 150mM NaCl, 50mM BME mixed 1:1 with reservoir 0.1M HEPES/NaOH pH7.5, 30% PEG550MME, 50mM MgCl2           NaN      2022-02-01   2022-10-12                                               NaN                                         NaN                                                   NaN                                            NaN                                       NaN                                   NaN                                  NaN                       1.9                        experimental               NaN           NaN           NaN  Crystal structure of human Cathepsin-S with bound ligand  MSHHWGYGKHNGPEHWHKDFPIAKGERQSPVDIDTHTAKYDPSLKPLSVSYDQATSLRILNNGHAFNVEFDDSQDKAVLKGGPLDGTYRLIQFHFHWGSLDGQGSEHTVDKKKYAAELHLVHWNTKYGDFGKAVQQPDGLAVLGIFLKVGSAKPGLQKVVDVLDSIKTKGKSADFTNFDPRGLLPESLDYWTYPGSLTTPPLLECVTWIVLKEPISVSSEQVLKFRKLNFNGEGEPEELMVDNWRPAQPLKNRQIKASFK             Protein                             NaN            polypeptide(L)                                                           NaN                        NaN  Carbonic anhydrase 2  2.7.11.1     PDB Primary Data    Homo sapiens           NaN                                            NaN                                                      NaN               NaN          NaN          Monomer            A1        ZN             Zn           NaN    ZINC ION  InChI=1S/Zn/q+2                  Y
+freq          1               11822                   NaN                      NaN                           5290          NaN                                                                                                                                          252           NaN             183          272                                               NaN                                         NaN                                                   NaN                                            NaN                                       NaN                                   NaN                                  NaN                       292                               11832               NaN           NaN           NaN                                                        25                                                                                                                                                                                                                                                                   283               11676                             NaN                     11675                                                           NaN                        NaN                   555      1075                11158           11362           NaN                                            NaN                                                      NaN               NaN          NaN             9190          9190      1573           1573           NaN        1573             1573               2660
+mean        NaN                 NaN              2.568826                50.346693                            NaN     6.982431                                                                                                                                          NaN    289.651437             NaN          NaN                                       4472.483266                                    2.155088                                            551.332319                                     249.614101                                  5.254041                             64.120166                             1.266396                       NaN                                 NaN         39.572183      0.226193      0.188469                                                       NaN                                                                                                                                                                                                                                                                   NaN                 NaN                      315.521467                       NaN                                                      1.556795                  35.930650                   NaN       NaN                  NaN             NaN  1.435634e+04                                     369.807218                                                 1.479632          1.478871          1.0              NaN           NaN       NaN            NaN    246.297135         NaN              NaN                NaN
+std         NaN                 NaN              0.548178                 8.936919                            NaN     1.142713                                                                                                                                          NaN      7.243569             NaN          NaN                                       3455.648638                                    1.781307                                            457.648148                                     215.557791                                  5.652869                             52.760108                             0.577398                       NaN                                 NaN         19.727123      0.033771      0.027254                                                       NaN                                                                                                                                                                                                                                                                   NaN                 NaN                      161.573661                       NaN                                                      1.034108                  18.341903                   NaN       NaN                  NaN             NaN  8.879909e+04                                     236.032724                                                 0.971363          0.970041          0.0              NaN           NaN       NaN            NaN    209.333461         NaN              NaN                NaN
+min         NaN                 NaN              0.410000                 0.410000                            NaN     2.900000                                                                                                                                          NaN    273.000000             NaN          NaN                                        279.000000                                    1.000000                                             38.000000                                       1.000000                                  1.000000                              4.610000                             1.000000                       NaN                                 NaN          6.664000      0.116600      0.096540                                                       NaN                                                                                                                                                                                                                                                                   NaN                 NaN                        3.000000                       NaN                                                      1.000000                   0.231000                   NaN       NaN                  NaN             NaN  2.740000e+02                                      23.000000                                                 1.000000          1.000000          1.0              NaN           NaN       NaN            NaN     16.023000         NaN              NaN                NaN
+25%         NaN                 NaN              2.180000                43.470000                            NaN     6.400000                                                                                                                                          NaN    289.000000             NaN          NaN                                       2414.000000                                    1.000000                                            295.000000                                     102.000000                                  2.000000                             34.220000                             1.000000                       NaN                                 NaN         24.920000      0.204700      0.171900                                                       NaN                                                                                                                                                                                                                                                                   NaN                 NaN                      237.000000                       NaN                                                      1.000000                  26.856000                   NaN       NaN                  NaN             NaN  9.606000e+03                                     262.000000                                                 1.000000          1.000000          1.0              NaN           NaN       NaN            NaN     65.409000         NaN              NaN                NaN
+50%         NaN                 NaN              2.450000                49.830000                            NaN     7.300000                                                                                                                                          NaN    293.000000             NaN          NaN                                       3290.000000                                    2.000000                                            374.000000                                     203.000000                                  4.000000                             44.995000                             1.000000                       NaN                                 NaN         35.764600      0.225900      0.188000                                                       NaN                                                                                                                                                                                                                                                                   NaN                 NaN                      308.000000                       NaN                                                      1.000000                  35.024000                   NaN       NaN                  NaN             NaN  9.606000e+03                                     326.000000                                                 1.000000          1.000000          1.0              NaN           NaN       NaN            NaN    174.220500         NaN              NaN                NaN
+75%         NaN                 NaN              2.800000                56.080000                            NaN     7.700000                                                                                                                                          NaN    293.000000             NaN          NaN                                       5383.000000                                    3.000000                                            662.000000                                     335.000000                                  6.000000                             76.210000                             1.000000                       NaN                                 NaN         49.465000      0.248400      0.205000                                                       NaN                                                                                                                                                                                                                                                                   NaN                 NaN                      365.000000                       NaN                                                      2.000000                  42.072750                   NaN       NaN                  NaN             NaN  9.606000e+03                                     398.000000                                                 2.000000          2.000000          1.0              NaN           NaN       NaN            NaN    418.540500         NaN              NaN                NaN
+max         NaN                 NaN              7.240000                83.000000                            NaN    11.000000                                                                                                                                          NaN    316.000000             NaN          NaN                                      50949.000000                                   42.000000                                           6960.000000                                    3426.000000                                 76.000000                            777.600000                            15.000000                       NaN                                 NaN        164.014300      0.375500      0.323300                                                       NaN                                                                                                                                                                                                                                                                   NaN                 NaN                     2128.000000                       NaN                                                     14.000000                 240.831000                   NaN       NaN                  NaN             NaN  3.052519e+06                                    6960.000000                                                34.000000         34.000000          1.0              NaN           NaN       NaN            NaN   1766.881000         NaN              NaN                NaN
+
+=== Valores únicos por columna ===
+Entry ID                                                        11832
+Experimental Method                                                 2
+Matthews Coefficient                                              365
+Percent Solvent Content                                          3452
+Crystallization Method                                             15
+pH                                                                 92
+Crystal Growth Procedure                                         7232
+Temp (K)                                                           67
+Deposition Date                                                  2703
+Release Date                                                      507
+Number of Non-Hydrogen Atoms per Deposited Model                 5966
+Total Number of Polymer Instances (Chains)                         22
+Total Number of Polymer Residues per Deposited Model             1287
+Number of Water Molecules per Deposited Model                     992
+Disulfide Bond Count per Deposited Model                           36
+Molecular Weight per Deposited Model                             6423
+Number of Distinct Protein Entities                                 7
+Refinement Resolution (Å)                                        1401
+Structure Determination Methodology                                 1
+Average B Factor                                                 8568
+R Free                                                           3127
+R Work                                                           2849
+Structure Title                                                 11076
+Sequence                                                         4396
+Entity Polymer Type                                                 3
+Polymer Entity Sequence Length                                    723
+Entity Macromolecule Type                                           4
+Total Number of polymer Entity Instances (Chains) per Entity       12
+Molecular Weight (Entity)                                        4279
+Macromolecule Name                                               1909
+EC Number                                                         476
+EC Provenance Source                                                1
+Source Organism                                                    90
+Taxonomy ID                                                        90
+Total Number of Polymer Residues per Assembly                     921
+Total Number of Polymer Instances (Chains) per Assembly            14
+Oligomeric Count                                                   14
+Assembly ID                                                         1
+Oligomeric State                                                   20
+Stoichiometry                                                      40
+Ligand ID                                                        3822
+Ligand Formula                                                   3453
+Ligand MW                                                        3435
+Ligand Name                                                      3819
+InChI                                                            3817
+Ligand of Interest                                                  1
+
+=== Tamaño del archivo ===
+Tamaño en memoria: 4.15 MB
+
+=== Caracteres no alfanuméricos en columnas de texto ===
+Columna 'Entry ID': 0 valores con caracteres especiales
+Columna 'Experimental Method': 11832 valores con caracteres especiales
+Columna 'Crystallization Method': 10169 valores con caracteres especiales
+Columna 'Crystal Growth Procedure': 11634 valores con caracteres especiales
+Columna 'Deposition Date': 11832 valores con caracteres especiales
+Columna 'Release Date': 11832 valores con caracteres especiales
+Columna 'Refinement Resolution (Å)': 11590 valores con caracteres especiales
+Columna 'Structure Determination Methodology': 0 valores con caracteres especiales
+Columna 'Structure Title': 8625 valores con caracteres especiales
+Columna 'Sequence': 0 valores con caracteres especiales
+Columna 'Entity Polymer Type': 0 valores con caracteres especiales
+Columna 'Entity Macromolecule Type': 11676 valores con caracteres especiales
+Columna 'Macromolecule Name': 7722 valores con caracteres especiales
+Columna 'EC Number': 11118 valores con caracteres especiales
+Columna 'EC Provenance Source': 0 valores con caracteres especiales
+Columna 'Source Organism': 46 valores con caracteres especiales
+Columna 'Oligomeric State': 2642 valores con caracteres especiales
+Columna 'Stoichiometry': 2469 valores con caracteres especiales
+Columna 'Ligand ID': 0 valores con caracteres especiales
+Columna 'Ligand Formula': 0 valores con caracteres especiales
+Columna 'Ligand Name': 6215 valores con caracteres especiales
+Columna 'InChI': 11096 valores con caracteres especiales
+Columna 'Ligand of Interest': 0 valores con caracteres especiales
+
+=== Columnas con baja variabilidad ===
+Número de columnas detectadas: 1
+Assembly ID

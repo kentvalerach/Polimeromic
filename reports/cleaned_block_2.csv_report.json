@@ -1,0 +1,5640 @@
+{
+    "file": "cleaned_block_2.csv",
+    "chunks": [
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 8020,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 81138,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 760.75088,
+                    "std": 165.99161584655025,
+                    "min": 504.0,
+                    "25%": 703.0,
+                    "50%": 721.0,
+                    "75%": 985.0,
+                    "max": 991.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.7913808431083875,
+                    "std": 1.0661063667860713,
+                    "min": -3.18876988081,
+                    "25%": -2.6113294755300003,
+                    "50%": -2.112489628075,
+                    "75%": -1.32928273445,
+                    "max": 1.144
+                },
+                "SCORE.2": {
+                    "count": 18862.0,
+                    "mean": 0.4336327006680318,
+                    "std": 0.3217200199546286,
+                    "min": 0.001,
+                    "25%": 0.131,
+                    "50%": 0.391,
+                    "75%": 0.725,
+                    "max": 1.0
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7922,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 853.16167,
+                    "std": 103.68755944622774,
+                    "min": 696.0,
+                    "25%": 778.0,
+                    "50%": 828.0,
+                    "75%": 977.0,
+                    "max": 985.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.1742920718880128,
+                    "std": 0.5280063753927589,
+                    "min": -2.97116975755,
+                    "25%": -2.5836597396474996,
+                    "50%": -2.281603169165,
+                    "75%": -1.8642207304818124,
+                    "max": -0.226569844974
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7962,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 906.24703,
+                    "std": 63.97469276041869,
+                    "min": 800.0,
+                    "25%": 839.0,
+                    "50%": 940.0,
+                    "75%": 963.0,
+                    "max": 982.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.212051954628635,
+                    "std": 0.5686222244600914,
+                    "min": -3.21389944841,
+                    "25%": -2.64863682881,
+                    "50%": -2.29532863331,
+                    "75%": -1.87853495817,
+                    "max": -0.224888079987
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7904,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 845.05553,
+                    "std": 91.2150982477742,
+                    "min": 707.0,
+                    "25%": 800.0,
+                    "50%": 852.0,
+                    "75%": 892.0,
+                    "max": 994.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.226362708285467,
+                    "std": 0.5719266590682441,
+                    "min": -3.38674443314,
+                    "25%": -2.633740703555,
+                    "50%": -2.31782333822,
+                    "75%": -1.874104802924757,
+                    "max": -0.269887481207
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7969,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 828.2255,
+                    "std": 74.90184612287473,
+                    "min": 719.0,
+                    "25%": 791.0,
+                    "50%": 794.0,
+                    "75%": 870.0,
+                    "max": 951.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.140971749222195,
+                    "std": 0.5407581650323416,
+                    "min": -3.04799394089,
+                    "25%": -2.5628001990025,
+                    "50%": -2.2467486784500004,
+                    "75%": -1.778405498147824,
+                    "max": 0.060690902009
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7872,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 806.06141,
+                    "std": 70.6446219144396,
+                    "min": 708.0,
+                    "25%": 750.0,
+                    "50%": 824.0,
+                    "75%": 878.0,
+                    "max": 888.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.1914722215825986,
+                    "std": 0.5809320106043604,
+                    "min": -3.12825954113,
+                    "25%": -2.6465633881475,
+                    "50%": -2.2811207707900003,
+                    "75%": -1.8545940715,
+                    "max": -0.171101911563
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 8167,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 859.23455,
+                    "std": 172.90177566039893,
+                    "min": 694.0,
+                    "25%": 708.0,
+                    "50%": 801.0,
+                    "75%": 955.0,
+                    "max": 1167.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.6819897877093337,
+                    "std": 1.3991159689926154,
+                    "min": -3.39552237218,
+                    "25%": -2.6487488427425,
+                    "50%": -2.22860226364,
+                    "75%": -1.3701248112125,
+                    "max": 1.0
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7933,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 912.16499,
+                    "std": 54.60747795009996,
+                    "min": 746.0,
+                    "25%": 887.0,
+                    "50%": 925.0,
+                    "75%": 954.0,
+                    "max": 976.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.126062505169055,
+                    "std": 0.5707667182573062,
+                    "min": -3.22005743663,
+                    "25%": -2.537690310845,
+                    "50%": -2.172540518715,
+                    "75%": -1.7512082901830062,
+                    "max": -0.135628363068
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7941,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 864.43214,
+                    "std": 74.60503879862681,
+                    "min": 740.0,
+                    "25%": 819.0,
+                    "50%": 861.0,
+                    "75%": 928.0,
+                    "max": 974.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.1929691116972525,
+                    "std": 0.564577535556659,
+                    "min": -3.21219807727,
+                    "25%": -2.6265082723499997,
+                    "50%": -2.3050796614999998,
+                    "75%": -1.8483366629279463,
+                    "max": -0.093248524203
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 8022,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 81138,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 777.91276,
+                    "std": 165.90893335482863,
+                    "min": 508.0,
+                    "25%": 723.0,
+                    "50%": 764.0,
+                    "75%": 939.0,
+                    "max": 993.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.6558882264845352,
+                    "std": 0.9721075392198542,
+                    "min": -3.02416419039,
+                    "25%": -2.394411500835,
+                    "50%": -1.8644882937928429,
+                    "75%": -1.1622050346775,
+                    "max": 1.315
+                },
+                "SCORE.2": {
+                    "count": 18862.0,
+                    "mean": 0.4989773618916483,
+                    "std": 0.3128248233332993,
+                    "min": 0.002,
+                    "25%": 0.21,
+                    "50%": 0.499,
+                    "75%": 0.772,
+                    "max": 1.0
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7992,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 845.15435,
+                    "std": 79.08335076257372,
+                    "min": 723.0,
+                    "25%": 770.0,
+                    "50%": 914.0,
+                    "75%": 917.0,
+                    "max": 920.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.169419322756953,
+                    "std": 0.5464234812981389,
+                    "min": -3.12412605901,
+                    "25%": -2.54699882254,
+                    "50%": -2.246402716915,
+                    "75%": -1.88561727272,
+                    "max": -0.299308396905
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7873,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 743.96525,
+                    "std": 36.04203840965553,
+                    "min": 691.0,
+                    "25%": 717.0,
+                    "50%": 759.0,
+                    "75%": 779.0,
+                    "max": 787.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.0921635275019566,
+                    "std": 0.6247739261953789,
+                    "min": -3.17291982585,
+                    "25%": -2.5736995882900002,
+                    "50%": -2.12341208572,
+                    "75%": -1.7136521698075,
+                    "max": 0.047538074364
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7959,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 789.9517,
+                    "std": 91.71087327009928,
+                    "min": 697.0,
+                    "25%": 718.0,
+                    "50%": 792.0,
+                    "75%": 795.0,
+                    "max": 968.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.0614746550792047,
+                    "std": 0.540715011168018,
+                    "min": -2.92724952326,
+                    "25%": -2.4795174429075,
+                    "50%": -2.18189198463,
+                    "75%": -1.7400208294425001,
+                    "max": 0.000698640511
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7955,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 909.0935,
+                    "std": 58.85338643580552,
+                    "min": 821.0,
+                    "25%": 826.0,
+                    "50%": 935.0,
+                    "75%": 936.0,
+                    "max": 990.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.9563816971551335,
+                    "std": 0.5083859918438524,
+                    "min": -2.95271275835,
+                    "25%": -2.3499454578225,
+                    "50%": -2.04229431308,
+                    "75%": -1.6394065888033582,
+                    "max": -0.144536209903
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7896,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 833.20735,
+                    "std": 78.40786525535238,
+                    "min": 744.0,
+                    "25%": 758.0,
+                    "50%": 809.0,
+                    "75%": 884.0,
+                    "max": 961.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.89135047062962,
+                    "std": 0.5354231385764856,
+                    "min": -2.7833035541,
+                    "25%": -2.3222057722400002,
+                    "50%": -1.980949766735,
+                    "75%": -1.5397618792,
+                    "max": 0.001215307112
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7950,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 830.56365,
+                    "std": 90.94680182330079,
+                    "min": 692.0,
+                    "25%": 761.0,
+                    "50%": 818.0,
+                    "75%": 903.0,
+                    "max": 956.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.948400072676055,
+                    "std": 0.528957350594561,
+                    "min": -3.0548677554,
+                    "25%": -2.3162242022975,
+                    "50%": -2.02517697662,
+                    "75%": -1.62665303603,
+                    "max": -0.027786939827
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7911,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 846.7677,
+                    "std": 87.62076358194429,
+                    "min": 706.0,
+                    "25%": 789.0,
+                    "50%": 871.0,
+                    "75%": 937.0,
+                    "max": 943.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.939494629157518,
+                    "std": 0.5721824460160273,
+                    "min": -3.02953025184,
+                    "25%": -2.3708031308399997,
+                    "50%": -2.0055305241649997,
+                    "75%": -1.61058392536,
+                    "max": -0.022474232349
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7999,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 840.6388,
+                    "std": 86.42294095780417,
+                    "min": 726.0,
+                    "25%": 772.0,
+                    "50%": 859.0,
+                    "75%": 941.0,
+                    "max": 946.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.023510571293496,
+                    "std": 0.5241728486719395,
+                    "min": -2.99529228499,
+                    "25%": -2.4176011100975003,
+                    "50%": -2.11728499106,
+                    "75%": -1.7038689354575998,
+                    "max": -0.07515909527
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7930,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 830.22105,
+                    "std": 55.48600340508541,
+                    "min": 777.0,
+                    "25%": 788.0,
+                    "50%": 825.0,
+                    "75%": 837.0,
+                    "max": 938.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.9520647858640512,
+                    "std": 0.5509201554803309,
+                    "min": -2.86092666491,
+                    "25%": -2.3861741656525,
+                    "50%": -2.02028456564,
+                    "75%": -1.638969168745,
+                    "max": -0.011097514061
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7940,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 831.2994,
+                    "std": 83.10657571257747,
+                    "min": 729.0,
+                    "25%": 760.0,
+                    "50%": 844.0,
+                    "75%": 875.0,
+                    "max": 972.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.042639018200823,
+                    "std": 0.5575512961197701,
+                    "min": -3.10953507318,
+                    "25%": -2.46013707309,
+                    "50%": -2.1511233730350003,
+                    "75%": -1.69154334118,
+                    "max": 0.003165847814
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7919,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 829.53755,
+                    "std": 55.94080338831637,
+                    "min": 775.0,
+                    "25%": 793.0,
+                    "50%": 796.0,
+                    "75%": 866.0,
+                    "max": 931.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.918876899916624,
+                    "std": 0.5643256425055424,
+                    "min": -3.02474915973,
+                    "25%": -2.3546500374125,
+                    "50%": -1.97711926974,
+                    "75%": -1.6115249766772488,
+                    "max": -0.001274958104
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7890,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 844.82405,
+                    "std": 110.5711054086942,
+                    "min": 731.0,
+                    "25%": 749.0,
+                    "50%": 785.0,
+                    "75%": 978.0,
+                    "max": 999.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.924030909105224,
+                    "std": 0.5110962084907835,
+                    "min": -2.67914796592,
+                    "25%": -2.325809740215,
+                    "50%": -2.0453219971500003,
+                    "75%": -1.594865725739504,
+                    "max": -0.074200714786
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7982,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 885.0703,
+                    "std": 60.965497011262094,
+                    "min": 813.0,
+                    "25%": 842.0,
+                    "50%": 846.0,
+                    "75%": 967.0,
+                    "max": 973.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.8787841823414855,
+                    "std": 0.5383211800164432,
+                    "min": -2.99171668649,
+                    "25%": -2.2893184184449997,
+                    "50%": -1.93909565574,
+                    "75%": -1.5177640664775,
+                    "max": -0.100540889725
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7892,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 869.83185,
+                    "std": 67.23862421190772,
+                    "min": 773.0,
+                    "25%": 810.0,
+                    "50%": 864.0,
+                    "75%": 949.0,
+                    "max": 967.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.9041679528259334,
+                    "std": 0.5536324941165955,
+                    "min": -2.83641150785,
+                    "25%": -2.313070187585,
+                    "50%": -2.0057628707750004,
+                    "75%": -1.5825997884075,
+                    "max": -0.022638713001
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7972,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 859.40165,
+                    "std": 79.77200801670527,
+                    "min": 763.0,
+                    "25%": 799.0,
+                    "50%": 811.0,
+                    "75%": 958.0,
+                    "max": 980.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.9761455125256537,
+                    "std": 0.5501213871468881,
+                    "min": -3.2351704079,
+                    "25%": -2.370947817595,
+                    "50%": -2.049236345045,
+                    "75%": -1.657442965215,
+                    "max": 0.076081190022
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7924,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 862.37065,
+                    "std": 95.34004859363769,
+                    "min": 742.0,
+                    "25%": 780.0,
+                    "50%": 820.0,
+                    "75%": 966.0,
+                    "max": 980.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.906127547383961,
+                    "std": 0.5665527427061833,
+                    "min": -2.93994275581,
+                    "25%": -2.3499398450175,
+                    "50%": -1.9896684708199999,
+                    "75%": -1.555311752007458,
+                    "max": 0.063163018632
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7955,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 780.05135,
+                    "std": 65.93114728514819,
+                    "min": 698.0,
+                    "25%": 724.0,
+                    "50%": 743.0,
+                    "75%": 858.0,
+                    "max": 865.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -2.009345675431341,
+                    "std": 0.5756308306704961,
+                    "min": -2.99640385609,
+                    "25%": -2.4413524819475,
+                    "50%": -2.09832268396,
+                    "75%": -1.675908925975,
+                    "max": 0.064655908823
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7911,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 829.89475,
+                    "std": 134.66358756271646,
+                    "min": 704.0,
+                    "25%": 709.0,
+                    "50%": 712.0,
+                    "75%": 987.0,
+                    "max": 997.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.8519332287637513,
+                    "std": 0.5671729466849283,
+                    "min": -3.46032794743,
+                    "25%": -2.3074055272650003,
+                    "50%": -1.914100284435,
+                    "75%": -1.5472964308477295,
+                    "max": 0.117070091703
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7992,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 82373,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 832.31883,
+                    "std": 152.41385559490053,
+                    "min": 537.0,
+                    "25%": 765.0,
+                    "50%": 907.0,
+                    "75%": 922.0,
+                    "max": 981.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.630068143831249,
+                    "std": 0.8913761782908908,
+                    "min": -3.10351878039,
+                    "25%": -2.3200642536625002,
+                    "50%": -1.90504921459,
+                    "75%": -1.13841907933,
+                    "max": 0.536400773678
+                },
+                "SCORE.2": {
+                    "count": 17627.0,
+                    "mean": 0.33031736378261883,
+                    "std": 0.031039588328311718,
+                    "min": 0.218,
+                    "25%": 0.297,
+                    "50%": 0.35,
+                    "75%": 0.35,
+                    "max": 0.35
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7918,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 835.09102,
+                    "std": 43.004203387309715,
+                    "min": 754.0,
+                    "25%": 831.0,
+                    "50%": 833.0,
+                    "75%": 877.0,
+                    "max": 885.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.7425633819006112,
+                    "std": 0.531893510879911,
+                    "min": -2.70454271854,
+                    "25%": -2.1525253175425,
+                    "50%": -1.81458286195,
+                    "75%": -1.413261397172105,
+                    "max": 0.111898841815
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7921,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 878.52049,
+                    "std": 71.21380620509953,
+                    "min": 756.0,
+                    "25%": 845.0,
+                    "50%": 896.0,
+                    "75%": 932.0,
+                    "max": 971.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.7343113147427953,
+                    "std": 0.5174102449945618,
+                    "min": -2.53406970495,
+                    "25%": -2.13376293943,
+                    "50%": -1.83191202432,
+                    "75%": -1.4114341666675,
+                    "max": 0.106203083765
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7925,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 848.62843,
+                    "std": 75.73389453845216,
+                    "min": 713.0,
+                    "25%": 830.0,
+                    "50%": 836.0,
+                    "75%": 886.0,
+                    "max": 953.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.773475013371872,
+                    "std": 0.5045531423677262,
+                    "min": -2.82049293725,
+                    "25%": -2.14503880295,
+                    "50%": -1.8355138102650002,
+                    "75%": -1.4439380971525,
+                    "max": -0.03430383131
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7931,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 853.60003,
+                    "std": 87.53228143370728,
+                    "min": 737.0,
+                    "25%": 745.0,
+                    "50%": 895.0,
+                    "75%": 902.0,
+                    "max": 957.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.8104547793524246,
+                    "std": 0.5746509851178744,
+                    "min": -2.91067891996,
+                    "25%": -2.24415777689,
+                    "50%": -1.9086803965899999,
+                    "75%": -1.4698963488474999,
+                    "max": 0.360352974885
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7976,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 853.70816,
+                    "std": 73.1161792571645,
+                    "min": 727.0,
+                    "25%": 832.0,
+                    "50%": 851.0,
+                    "75%": 944.0,
+                    "max": 947.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.8865956163913395,
+                    "std": 0.5748927458368421,
+                    "min": -2.83614474087,
+                    "25%": -2.322760983595,
+                    "50%": -1.9692747533750001,
+                    "75%": -1.5919937378575,
+                    "max": 0.110374393334
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7902,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 871.72405,
+                    "std": 79.53955221781567,
+                    "min": 741.0,
+                    "25%": 797.0,
+                    "50%": 919.0,
+                    "75%": 930.0,
+                    "max": 964.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.6973037574545653,
+                    "std": 0.5702005603744837,
+                    "min": -2.73722730063,
+                    "25%": -2.142430340115,
+                    "50%": -1.77934421517,
+                    "75%": -1.29865807003,
+                    "max": 0.205800184575
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7971,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 851.56019,
+                    "std": 79.47408859784026,
+                    "min": 700.0,
+                    "25%": 838.0,
+                    "50%": 863.0,
+                    "75%": 906.0,
+                    "max": 964.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.726313190111071,
+                    "std": 0.49865797345194113,
+                    "min": -2.54901188688,
+                    "25%": -2.10290661338,
+                    "50%": -1.81361952762,
+                    "75%": -1.459878012835,
+                    "max": 0.174309831535
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7900,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 855.58806,
+                    "std": 102.835081542996,
+                    "min": 720.0,
+                    "25%": 767.0,
+                    "50%": 849.0,
+                    "75%": 962.0,
+                    "max": 998.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.6944941852078161,
+                    "std": 0.5568684452317372,
+                    "min": -2.97487103928,
+                    "25%": -2.1309448938975,
+                    "50%": -1.7415786256249999,
+                    "75%": -1.3728337150099998,
+                    "max": 0.208618208754
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7959,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 822.09784,
+                    "std": 83.3582455027917,
+                    "min": 747.0,
+                    "25%": 757.0,
+                    "50%": 782.0,
+                    "75%": 840.0,
+                    "max": 984.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.7990409959786267,
+                    "std": 0.574769060912013,
+                    "min": -3.14277438861,
+                    "25%": -2.209254647,
+                    "50%": -1.88420830919,
+                    "75%": -1.4599987805573855,
+                    "max": 0.321236521796
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7940,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 857.70328,
+                    "std": 84.54448210815846,
+                    "min": 693.0,
+                    "25%": 752.0,
+                    "50%": 898.0,
+                    "75%": 915.0,
+                    "max": 942.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.6074229433403007,
+                    "std": 0.5252776104003151,
+                    "min": -2.74399652636,
+                    "25%": -1.99864966097,
+                    "50%": -1.687534031965,
+                    "75%": -1.3072530806149325,
+                    "max": 0.200719999571
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7905,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 861.42912,
+                    "std": 104.57313694935817,
+                    "min": 693.0,
+                    "25%": 734.0,
+                    "50%": 868.0,
+                    "75%": 969.0,
+                    "max": 995.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.6747771546820525,
+                    "std": 0.5887544486382599,
+                    "min": -2.77866248967,
+                    "25%": -2.1201843310350004,
+                    "50%": -1.75620252026,
+                    "75%": -1.3372493502425,
+                    "max": 0.483753817499
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7947,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 779.94291,
+                    "std": 66.84615048606362,
+                    "min": 705.0,
+                    "25%": 722.0,
+                    "50%": 732.0,
+                    "75%": 860.0,
+                    "max": 879.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.60883489734452,
+                    "std": 0.5152193648194031,
+                    "min": -2.69334351253,
+                    "25%": -1.9890073722475,
+                    "50%": -1.681480594305,
+                    "75%": -1.2943382723174999,
+                    "max": 0.317015424556
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7911,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 885.76913,
+                    "std": 68.83057740226616,
+                    "min": 802.0,
+                    "25%": 817.0,
+                    "50%": 872.0,
+                    "75%": 948.0,
+                    "max": 988.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.5681201780483955,
+                    "std": 0.5254559185296579,
+                    "min": -2.52095606057,
+                    "25%": -1.990432134685,
+                    "50%": -1.6626044353,
+                    "75%": -1.2493587855775,
+                    "max": 0.264773366292
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7982,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 831.71053,
+                    "std": 95.9529988426679,
+                    "min": 695.0,
+                    "25%": 766.0,
+                    "50%": 768.0,
+                    "75%": 918.0,
+                    "max": 950.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.5105957801084622,
+                    "std": 0.48734151589803537,
+                    "min": -2.33616674126,
+                    "25%": -1.8756496404749998,
+                    "50%": -1.59031697401,
+                    "75%": -1.2021493561350398,
+                    "max": 0.337264098232
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7906,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 804.96778,
+                    "std": 104.12619951061615,
+                    "min": 699.0,
+                    "25%": 715.0,
+                    "50%": 735.0,
+                    "75%": 889.0,
+                    "max": 970.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.5058964058917603,
+                    "std": 0.5412876301524309,
+                    "min": -2.61734321442,
+                    "25%": -1.929730824545,
+                    "50%": -1.5699434189149999,
+                    "75%": -1.1871768017580588,
+                    "max": 0.301160043004
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7985,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 100000,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 863.34227,
+                    "std": 78.73958877505109,
+                    "min": 711.0,
+                    "25%": 856.0,
+                    "50%": 890.0,
+                    "75%": 897.0,
+                    "max": 960.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.552583370181176,
+                    "std": 0.5695245153277319,
+                    "min": -3.2035872504,
+                    "25%": -1.968951025555,
+                    "50%": -1.634122397095,
+                    "75%": -1.233861450856437,
+                    "max": 0.582003455495
+                },
+                "SCORE.2": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 7878,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 82763,
+                "SCORE.3": 82763,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 951.25581,
+                    "std": 191.93001808630677,
+                    "min": 748.0,
+                    "25%": 874.0,
+                    "50%": 909.0,
+                    "75%": 927.0,
+                    "max": 1351.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -1.0530312558957973,
+                    "std": 0.8347166085876954,
+                    "min": -2.9746003892,
+                    "25%": -1.679609390375,
+                    "50%": -1.26876141716,
+                    "75%": -0.561121209224,
+                    "max": 1.0
+                },
+                "SCORE.2": {
+                    "count": 17237.0,
+                    "mean": 0.50328163486448,
+                    "std": 0.2974301171957002,
+                    "min": 2.87e-07,
+                    "25%": 0.24483,
+                    "50%": 0.49932,
+                    "75%": 0.76296,
+                    "max": 1.0
+                },
+                "SCORE.3": {
+                    "count": 17237.0,
+                    "mean": 0.9881814530059246,
+                    "std": 0.014414152993156367,
+                    "min": 0.93409,
+                    "25%": 0.973491,
+                    "50%": 0.997488,
+                    "75%": 1.0,
+                    "max": 1.0
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 8018,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 8314,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 594.89918,
+                    "std": 100.33260188815098,
+                    "min": 550.0,
+                    "25%": 566.0,
+                    "50%": 567.0,
+                    "75%": 575.0,
+                    "max": 927.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -0.1445654734397662,
+                    "std": 0.6651309793991308,
+                    "min": -2.81789065132,
+                    "25%": -0.3048964263035,
+                    "50%": -0.040513641046,
+                    "75%": 0.19648841962325,
+                    "max": 1.0
+                },
+                "SCORE.2": {
+                    "count": 91686.0,
+                    "mean": 0.48011525821241263,
+                    "std": 0.2501007563870123,
+                    "min": 0.289,
+                    "25%": 0.36,
+                    "50%": 0.371,
+                    "75%": 0.382,
+                    "max": 0.999999
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 8146,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 0,
+                "SCORE.3": 100000,
+                "SCORE.4": 100000,
+                "SCORE.5": 100000,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 100000.0,
+                    "mean": 551.93269,
+                    "std": 8.908035299371749,
+                    "min": 540.0,
+                    "25%": 541.0,
+                    "50%": 553.0,
+                    "75%": 561.0,
+                    "max": 563.0
+                },
+                "ORGANISM_ID": {
+                    "count": 100000.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 100000.0,
+                    "mean": -0.07199981579013405,
+                    "std": 0.26255720507377095,
+                    "min": -1.063586,
+                    "25%": -0.21630805938425002,
+                    "50%": -0.0659927386405,
+                    "75%": 0.09990554171874999,
+                    "max": 0.851310930488
+                },
+                "SCORE.2": {
+                    "count": 100000.0,
+                    "mean": 0.35925507952851565,
+                    "std": 0.02480853878857088,
+                    "min": 0.27,
+                    "25%": 0.351,
+                    "50%": 0.364,
+                    "75%": 0.374,
+                    "max": 0.389
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        },
+        {
+            "Tipos de datos": {
+                "#SCREEN_ID": "int64",
+                "IDENTIFIER_ID": "object",
+                "IDENTIFIER_TYPE": "object",
+                "OFFICIAL_SYMBOL": "object",
+                "ALIASES": "object",
+                "ORGANISM_ID": "int64",
+                "ORGANISM_OFFICIAL": "object",
+                "SCORE.1": "float64",
+                "SCORE.2": "float64",
+                "SCORE.3": "float64",
+                "SCORE.4": "float64",
+                "SCORE.5": "float64",
+                "HIT": "object",
+                "SOURCE": "object"
+            },
+            "Valores nulos": {
+                "#SCREEN_ID": 0,
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 5950,
+                "ORGANISM_ID": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "SCORE.1": 0,
+                "SCORE.2": 0,
+                "SCORE.3": 73101,
+                "SCORE.4": 73101,
+                "SCORE.5": 73101,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Caracteres especiales (texto)": {
+                "IDENTIFIER_ID": 0,
+                "IDENTIFIER_TYPE": 0,
+                "OFFICIAL_SYMBOL": 0,
+                "ALIASES": 0,
+                "ORGANISM_OFFICIAL": 0,
+                "HIT": 0,
+                "SOURCE": 0
+            },
+            "Resumen num\u00e9rico": {
+                "#SCREEN_ID": {
+                    "count": 73101.0,
+                    "mean": 557.879249257876,
+                    "std": 8.568214359350751,
+                    "min": 541.0,
+                    "25%": 547.0,
+                    "50%": 556.0,
+                    "75%": 562.0,
+                    "max": 569.0
+                },
+                "ORGANISM_ID": {
+                    "count": 73101.0,
+                    "mean": 9606.0,
+                    "std": 0.0,
+                    "min": 9606.0,
+                    "25%": 9606.0,
+                    "50%": 9606.0,
+                    "75%": 9606.0,
+                    "max": 9606.0
+                },
+                "SCORE.1": {
+                    "count": 73101.0,
+                    "mean": -0.051627269407838905,
+                    "std": 0.24452504104000225,
+                    "min": -0.8289538,
+                    "25%": -0.188528164253,
+                    "50%": -0.05101389,
+                    "75%": 0.1158235,
+                    "max": 0.647231833211
+                },
+                "SCORE.2": {
+                    "count": 73101.0,
+                    "mean": 0.3539895025109973,
+                    "std": 0.02768947748781917,
+                    "min": 0.25,
+                    "25%": 0.34,
+                    "50%": 0.367,
+                    "75%": 0.369,
+                    "max": 0.385
+                },
+                "SCORE.3": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.4": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                },
+                "SCORE.5": {
+                    "count": 0.0,
+                    "mean": NaN,
+                    "std": NaN,
+                    "min": NaN,
+                    "25%": NaN,
+                    "50%": NaN,
+                    "75%": NaN,
+                    "max": NaN
+                }
+            }
+        }
+    ]
+}

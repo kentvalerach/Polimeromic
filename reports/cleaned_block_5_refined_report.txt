@@ -1,0 +1,62 @@
+=== Información general ===
+Número de filas: 4486977
+Número de columnas: 14
+
+=== Tipos de datos y columnas ===
+#SCREEN_ID             int64
+IDENTIFIER_ID         object
+IDENTIFIER_TYPE       object
+OFFICIAL_SYMBOL       object
+ALIASES               object
+ORGANISM_ID            int64
+ORGANISM_OFFICIAL     object
+SCORE.1              float64
+SCORE.2              float64
+SCORE.3              float64
+SCORE.4              float64
+SCORE.5              float64
+HIT                   object
+SOURCE                object
+
+=== Duplicados ===
+Número de duplicados: 294
+
+=== Valores nulos ===
+ALIASES     500173
+SCORE.2      43386
+SCORE.3    1369795
+SCORE.4    2420440
+SCORE.5    3962237
+
+=== Estadísticas descriptivas ===
+          #SCREEN_ID IDENTIFIER_ID IDENTIFIER_TYPE OFFICIAL_SYMBOL  ALIASES  ORGANISM_ID ORGANISM_OFFICIAL       SCORE.1       SCORE.2       SCORE.3       SCORE.4        SCORE.5      HIT        SOURCE
+count   4.486977e+06       4486977         4486977         4486977  3986804    4486977.0           4486977  4.486977e+06  4.443591e+06  3.117182e+06  2.066537e+06  524740.000000  4486977       4486977
+unique           NaN         40687               3           40504    19912          NaN                 1           NaN           NaN           NaN           NaN            NaN        2             1
+top              NaN        286464     ENTREZ_GENE          CFAP47     AMY1          NaN      Homo sapiens           NaN           NaN           NaN           NaN            NaN       NO  BioGRID ORCS
+freq             NaN           480         4402079             480      774          NaN           4486977           NaN           NaN           NaN           NaN            NaN  4342400       4486977
+mean    1.633324e+03           NaN             NaN             NaN      NaN       9606.0               NaN  1.764059e+02  3.331551e+06  3.001229e+02  1.142343e+03      -0.112823      NaN           NaN
+std     4.422939e+02           NaN             NaN             NaN      NaN          0.0               NaN  1.520918e+03  1.024537e+08  3.645103e+03  7.964541e+03       1.954053      NaN           NaN
+min     8.500000e+01           NaN             NaN             NaN      NaN       9606.0               NaN -7.284755e+00 -9.481300e+00 -1.281800e+00 -9.819500e+00     -43.957655      NaN           NaN
+25%     1.246000e+03           NaN             NaN             NaN      NaN       9606.0               NaN  3.579987e-02  1.481100e-01  6.457630e-01  0.000000e+00      -0.174103      NaN           NaN
+50%     1.749000e+03           NaN             NaN             NaN      NaN       9606.0               NaN  3.577631e-01  4.985400e-01  9.802669e-01  7.482800e-01       0.002609      NaN           NaN
+75%     2.020000e+03           NaN             NaN             NaN      NaN       9606.0               NaN  8.673100e-01  8.625000e-01  9.999970e-01  1.000000e+00       0.184553      NaN           NaN
+max     2.223000e+03           NaN             NaN             NaN      NaN       9606.0               NaN  2.166100e+04  8.796910e+10  9.998600e+04  9.999700e+04       3.630200      NaN           NaN
+
+=== Valores únicos por columna ===
+#SCREEN_ID               225
+IDENTIFIER_ID          40687
+IDENTIFIER_TYPE            3
+OFFICIAL_SYMBOL        40504
+ALIASES                19912
+ORGANISM_ID                1
+ORGANISM_OFFICIAL          1
+SCORE.1              1497308
+SCORE.2              1581510
+SCORE.3               446511
+SCORE.4               481211
+SCORE.5               235293
+HIT                        2
+SOURCE                     1
+
+=== Tamaño del archivo ===
+Tamaño en memoria: 479.26 MB

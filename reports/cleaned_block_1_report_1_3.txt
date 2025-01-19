@@ -1,0 +1,46 @@
+=== Información general ===
+Número de filas: 4345676
+Número de columnas: 8
+
+=== Tipos de datos y columnas ===
+IDENTIFIER_ID         object
+IDENTIFIER_TYPE       object
+OFFICIAL_SYMBOL       object
+ALIASES               object
+ORGANISM_OFFICIAL     object
+SCORE.1              float64
+SCORE.2              float64
+HIT                   object
+
+=== Duplicados ===
+Número de duplicados: 0
+
+=== Valores nulos ===
+No hay valores nulos.
+
+=== Estadísticas descriptivas ===
+       IDENTIFIER_ID IDENTIFIER_TYPE OFFICIAL_SYMBOL  ALIASES ORGANISM_OFFICIAL                                SCORE.1                                SCORE.2           HIT
+count        4345676         4345676         4345676  4345676           4345676 4345676.000000000000000000000000000000 4345676.000000000000000000000000000000       4345676
+unique         43567               3           27975    19435                 3                                    NaN                                    NaN             4
+top           77294U     ENTREZ_GENE             NTC  UNKNOWN      Homo sapiens                                    NaN                                    NaN  BioGRID ORCS
+freq           12786         4308950           12786   377439           4345673                                    NaN                                    NaN       2574137
+mean             NaN             NaN             NaN      NaN               NaN       0.543205970886106448425323378615       0.000281112696654165373361111691           NaN
+std              NaN             NaN             NaN      NaN               NaN       0.154342256777704328607470074530       0.014292994166432412828093845292           NaN
+min              NaN             NaN             NaN      NaN               NaN       0.000000000000000000000000000000       0.000000000000000000000000000000           NaN
+25%              NaN             NaN             NaN      NaN               NaN       0.428649682741080395587118800904       0.000000000034972599999999998221           NaN
+50%              NaN             NaN             NaN      NaN               NaN       0.600492150983273020870001346339       0.000000000034972599999999998221           NaN
+75%              NaN             NaN             NaN      NaN               NaN       0.628025206369300703634905858053       0.000000000034972599999999998221           NaN
+max              NaN             NaN             NaN      NaN               NaN       1.000000000000000000000000000000       1.000000000000000000000000000000           NaN
+
+=== Valores únicos por columna ===
+IDENTIFIER_ID          43567
+IDENTIFIER_TYPE            3
+OFFICIAL_SYMBOL        27975
+ALIASES                19435
+ORGANISM_OFFICIAL          3
+SCORE.1              1497408
+SCORE.2               158172
+HIT                        4
+
+=== Tamaño del archivo ===
+Tamaño en memoria: 265.24 MB

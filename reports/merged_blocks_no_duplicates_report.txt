@@ -1,0 +1,30 @@
+=== Reporte de Eliminación de Duplicados ===
+
+Filas antes de eliminar duplicados: 1076101
+Filas después de eliminar duplicados: 275297
+Archivo limpio guardado en: C:/Polimeromics/data/BIOGRID-CSV/cleaned_blocks/merged_blocks_no_duplicates.csv
+
+=== Estadísticas descriptivas ===
+           IDENTIFIER_ID IDENTIFIER_TYPE OFFICIAL_SYMBOL  ALIASES ORGANISM_OFFICIAL        SCORE.1       SCORE.2     HIT      unique_id
+count             275297          275297          275297   275297            275297  275297.000000  2.752970e+05  275297  275297.000000
+unique             82754               3           65993    20638                 3            NaN           NaN       4            NaN
+top     9974575782587363     ENTREZ_GENE          ZNF445  UNKNOWN      Homo sapiens            NaN           NaN      NO            NaN
+freq                1736          235262              22    65305            275294            NaN           NaN  144822            NaN
+mean                 NaN             NaN             NaN      NaN               NaN       0.610870  7.014585e-02     NaN  137649.000000
+std                  NaN             NaN             NaN      NaN               NaN       0.162395  1.940387e-01     NaN   79471.542866
+min                  NaN             NaN             NaN      NaN               NaN       0.000000  0.000000e+00     NaN       1.000000
+25%                  NaN             NaN             NaN      NaN               NaN       0.573190  3.497260e-11     NaN   68825.000000
+50%                  NaN             NaN             NaN      NaN               NaN       0.616041  3.497260e-11     NaN  137649.000000
+75%                  NaN             NaN             NaN      NaN               NaN       0.666511  9.218850e-11     NaN  206473.000000
+max                  NaN             NaN             NaN      NaN               NaN       1.000000  1.000000e+00     NaN  275297.000000
+
+=== Valores nulos por columna ===
+IDENTIFIER_ID        0
+IDENTIFIER_TYPE      0
+OFFICIAL_SYMBOL      0
+ALIASES              0
+ORGANISM_OFFICIAL    0
+SCORE.1              0
+SCORE.2              0
+HIT                  0
+unique_id            0
