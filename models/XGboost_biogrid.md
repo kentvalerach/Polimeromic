@@ -1,0 +1,470 @@
+```python
+# This script designs a basic XGboost model to predict the objective variable HIT. 
+# I will start a process to search for relationships by loading both tables. 
+
+# Este script disena un modelo XGboost basico para predecir la variable objetiva HIT 
+# Comenzare un proceso para buscar relaciones cargando ambas tablas  
+
+import pandas as pd
+
+# File paths
+# Rutas de los archivos
+path_biogrid = "C:/Polimeromics/data/exported_data/biogrid_homosapiens.csv"
+path_rcsb = "C:/Polimeromics/data/exported_data/rcsb_pdb.csv"
+
+# Load tables
+# Cargar las tablas
+biogrid = pd.read_csv(path_biogrid)
+rcsb = pd.read_csv(path_rcsb)
+
+# Preview of the tables
+# Vista previa de las tablas
+print("Biogrid Homo Sapiens:")
+print(biogrid.head())
+
+print("\nRCSB PDB:")
+print(rcsb.head())
+```
+
+    Biogrid Homo Sapiens:
+      identifier_id identifier_type official_symbol  \
+    0         57121     ENTREZ_GENE           LPAR5   
+    1        286530     ENTREZ_GENE           P2RY8   
+    2          1956     ENTREZ_GENE            EGFR   
+    3          2122     ENTREZ_GENE           MECOM   
+    4        286204     ENTREZ_GENE            CRB2   
+    
+                                        aliases organism_official   score_1  \
+    0                     GPR92GPR93KPG_010LPA5      Homo sapiens  0.788889   
+    1                                      P2Y8      Homo sapiens  0.788793   
+    2              ERBBERBB1HER1NISBD2PIG61mENA      Homo sapiens  0.788784   
+    3  AML1EVI1EVI1KMT8EMDS1MDS1EVI1PRDM3RUSAT2      Homo sapiens  0.788279   
+    4                FSGS9VMCKDFLJ38464FLJ16786      Homo sapiens  0.788260   
+    
+       score_2  hit  unique_id  
+    0      0.0  YES          1  
+    1      0.0  YES          2  
+    2      0.0  YES          3  
+    3      0.0  YES          4  
+    4      0.0  YES          5  
+    
+    RCSB PDB:
+      entry_id experimental_method  matthews_coefficient  percent_solvent_content  \
+    0     6SJZ   X-RAY DIFFRACTION                  2.20                    44.16   
+    1     5C37   X-RAY DIFFRACTION                  2.26                    45.64   
+    2     6NNA   X-RAY DIFFRACTION                  2.26                    45.48   
+    3     7M4C   X-RAY DIFFRACTION                  2.83                    56.57   
+    4     7M4E   X-RAY DIFFRACTION                  2.84                    56.66   
+    
+              crystallization_method   ph  \
+    0  VAPOR DIFFUSION, HANGING DROP  5.5   
+    1  VAPOR DIFFUSION, HANGING DROP  8.0   
+    2  VAPOR DIFFUSION, HANGING DROP  7.6   
+    3  VAPOR DIFFUSION, SITTING DROP  7.5   
+    4  VAPOR DIFFUSION, SITTING DROP  7.5   
+    
+                                crystal_growth_procedure  temp_k deposition_date  \
+    0  22% PEG6K, 100mM Sodium Citrate pH 5.5, 100mM ...   293.0      2019-08-14   
+    1                                 PEG3350, Tris, KCl   298.0      2015-06-17   
+    2  0.19 M ammonium sulfate, 5 mM sodium cacodylat...   291.0      2019-01-14   
+    3  80-95mM BICINE pH 8.3, 0.3M Na-K Tartrate, 18-...   277.0      2021-03-21   
+    4  80-95mM BICINE pH 8.3, 0.3M Na-K Tartrate, 18-...   277.0      2021-03-21   
+    
+      release_date  ...  total_polymer_residues_assembly  \
+    0   2020-03-18  ...                              411   
+    1   2016-06-22  ...                              664   
+    2   2019-02-20  ...                              660   
+    3   2022-07-06  ...                              351   
+    4   2022-07-06  ...                              351   
+    
+       total_polymer_instances_assembly  oligomeric_count  oligomeric_state  \
+    0                                 2                 2      Hetero 2-mer   
+    1                                 1                 1           Monomer   
+    2                                 1                 1           Monomer   
+    3                                 4                 4           Monomer   
+    4                                 4                 4           Monomer   
+    
+       stoichiometry  ligand_id       ligand_formula  ligand_mw  \
+    0         A1, B1        MYA  C35 H62 N7 O17 P3 S    977.890   
+    1             A1        NDP    C21 H30 N7 O17 P3    745.421   
+    2             A1        NDP    C21 H30 N7 O17 P3    745.421   
+    3             A1        PPV             H4 O7 P2    177.975   
+    4             A1        PPV             H4 O7 P2    177.975   
+    
+                                             ligand_name  \
+    0                                  TETRADECANOYL-COA   
+    1  NADPH DIHYDRO-NICOTINAMIDE-ADENINE-DINUCLEOTID...   
+    2  NADPH DIHYDRO-NICOTINAMIDE-ADENINE-DINUCLEOTID...   
+    3                                      PYROPHOSPHATE   
+    4                                      PYROPHOSPHATE   
+    
+                                                   inchi  
+    0  InChI=1S/C35H62N7O17P3S/c1-4-5-6-7-8-9-10-11-1...  
+    1  InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17...  
+    2  InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17...  
+    3  InChI=1S/H4O7P2/c1-8(2,3)7-9(4,5)6/h(H2,1,2,3)...  
+    4  InChI=1S/H4O7P2/c1-8(2,3)7-9(4,5)6/h(H2,1,2,3)...  
+    
+    [5 rows x 44 columns]
+    
+
+
+```python
+# Ensure that tables are limited to records related to Homo sapiens:
+#  Asegurarse que las tablas estén limitadas a los registros relacionados con Homo sapiens: 
+
+# Filter tables
+# Filtrar las tablas
+biogrid_filtered = biogrid[biogrid["organism_official"] == "Homo sapiens"]
+rcsb_filtered = rcsb[rcsb["taxonomy_id"] == 9606]
+```
+
+
+```python
+# Create explicit copies when filtering
+# Crear copias explícitas al filtrar
+biogrid_filtered = biogrid[biogrid["organism_official"] == "Homo sapiens"].copy()
+rcsb_filtered = rcsb[rcsb["taxonomy_id"] == 9606].copy()
+
+# Normalize columns
+# Normalizar columnas
+biogrid_filtered["official_symbol"] = biogrid_filtered["official_symbol"].str.lower().str.strip()
+rcsb_filtered["macromolecule_name"] = rcsb_filtered["macromolecule_name"].str.lower().str.strip()
+```
+
+
+```python
+# Verify 
+# Verifico 
+
+print(biogrid_filtered["official_symbol"].head())
+print(rcsb_filtered["macromolecule_name"].head())
+```
+
+    0    lpar5
+    1    p2ry8
+    2     egfr
+    3    mecom
+    4     crb2
+    Name: official_symbol, dtype: object
+    0    glycylpeptide n-tetradecanoyltransferase 1
+    1                           fatty acid synthase
+    2       fatty acid synthase,fatty acid synthase
+    3                         dna polymerase lambda
+    4                         dna polymerase lambda
+    Name: macromolecule_name, dtype: object
+    
+
+
+```python
+# Combine tables based on the standardized columns
+# Combinar tablas basándose en las columnas normalizadas
+combined_data = biogrid_filtered.merge(
+    rcsb_filtered,
+    left_on="official_symbol",
+    right_on="macromolecule_name",
+    how="inner"
+)
+# Check the number of combined rows
+# Verificar el número de filas combinadas
+print("Número de filas combinadas:", combined_data.shape[0])
+
+# Show a sample of the combined data
+# Mostrar una muestra de los datos combinados
+print(combined_data.head())
+
+```
+
+    Número de filas combinadas: 651
+      identifier_id identifier_type official_symbol           aliases  \
+    0        147111     ENTREZ_GENE           notum            hNOTUM   
+    1        147111     ENTREZ_GENE           notum            hNOTUM   
+    2         50450     ENTREZ_GENE           furin  FURPACEPCSK3SPC1   
+    3         50450     ENTREZ_GENE           furin  FURPACEPCSK3SPC1   
+    4         50450     ENTREZ_GENE           furin  FURPACEPCSK3SPC1   
+    
+      organism_official   score_1       score_2  hit  unique_id entry_id  ...  \
+    0      Homo sapiens  0.324209  3.389869e-10  YES        146     4UZ1  ...   
+    1      Homo sapiens  0.324209  3.389869e-10  YES        146     4UZ5  ...   
+    2      Homo sapiens  1.000000  1.308357e-10  YES       1046     7QXZ  ...   
+    3      Homo sapiens  1.000000  1.308357e-10  YES       1046     8B4V  ...   
+    4      Homo sapiens  1.000000  1.308357e-10  YES       1046     8B4W  ...   
+    
+      total_polymer_residues_assembly  total_polymer_instances_assembly  \
+    0                             383                                 1   
+    1                             383                                 1   
+    2                             480                                 1   
+    3                             480                                 1   
+    4                             480                                 1   
+    
+       oligomeric_count oligomeric_state  stoichiometry ligand_id  ligand_formula  \
+    0                 1          Monomer             A1       NAG     C8 H15 N O6   
+    1                 1          Monomer             A1       NAG     C8 H15 N O6   
+    2                 1          Monomer             A1        CA              Ca   
+    3                 1          Monomer             A1       BEN        C7 H8 N2   
+    4                 1          Monomer             A1       F05        C8 H8 N2   
+    
+      ligand_mw                               ligand_name  \
+    0   221.208  2-acetamido-2-deoxy-beta-D-glucopyranose   
+    1   221.208  2-acetamido-2-deoxy-beta-D-glucopyranose   
+    2    40.078                               CALCIUM ION   
+    3   120.152                               BENZAMIDINE   
+    4   132.163                       1H-isoindol-3-amine   
+    
+                                                   inchi  
+    0  InChI=1S/C8H15NO6/c1-3(11)9-5-7(13)6(12)4(2-10...  
+    1  InChI=1S/C8H15NO6/c1-3(11)9-5-7(13)6(12)4(2-10...  
+    2                                    InChI=1S/Ca/q+2  
+    3  InChI=1S/C7H8N2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H3...  
+    4  InChI=1S/C8H8N2/c9-8-7-4-2-1-3-6(7)5-10-8/h1-4...  
+    
+    [5 rows x 53 columns]
+    
+
+
+```python
+# We enrich the data by creating new columns useful for the model:
+# Enriquecemos los datos creando nuevas columnas útiles para el modelo:
+
+# Create new features
+# Crear nuevas características
+combined_data["score_product"] = combined_data["score_1"] * combined_data["score_2"]
+combined_data["aliases_length"] = combined_data["aliases"].str.len()
+combined_data["ligand_mw_normalized"] = combined_data["ligand_mw"] / combined_data["molecular_weight"]
+
+# Verify the new features
+# Verificar las nuevas características
+print(combined_data[["score_product", "aliases_length", "ligand_mw_normalized"]].head())
+
+```
+
+       score_product  aliases_length  ligand_mw_normalized
+    0   1.099026e-10               6              5.008105
+    1   1.099026e-10               6              5.048106
+    2   1.308357e-10              16              0.757761
+    3   1.308357e-10              16              2.269160
+    4   1.308357e-10              16              2.483800
+    
+
+
+```python
+# We select the relevant characteristics and define the target variable hit as 1 for “YES” and 0 for “NO”:
+# Seleccionamos las características relevantes y definimos la variable objetivo hit como 1 para "YES" y 0 para "NO":
+
+# Selection of characteristics and target variable
+# Selección de características y variable objetivo
+X = combined_data[[
+    "score_1", "score_2", "score_product", "aliases_length", "ligand_mw_normalized"
+]]
+y = combined_data["hit"].apply(lambda x: 1 if x == "YES" else 0)
+
+# Check dimensions
+# Verificar dimensiones
+print("Tamaño de X:", X.shape)
+print("Tamaño de y:", y.shape)
+
+```
+
+    Tamaño de X: (651, 5)
+    Tamaño de y: (651,)
+    
+
+
+```python
+print(y.value_counts())
+```
+
+    hit
+    0    473
+    1    178
+    Name: count, dtype: int64
+    
+
+
+```python
+# I apply a balancing technique
+# Aplico una tecnica de balanceo
+
+from imblearn.over_sampling import RandomOverSampler
+
+# Oversampling
+# Sobremuestreo
+ros = RandomOverSampler(random_state=42)
+X_balanced, y_balanced = ros.fit_resample(X, y)
+
+# Verify distribution of balanced classes
+# Verificar distribución de clases balanceadas
+print("Distribución después del sobremuestreo:", y_balanced.value_counts())
+
+```
+
+    Distribución después del sobremuestreo: hit
+    1    473
+    0    473
+    Name: count, dtype: int64
+    
+
+
+```python
+# We split the data into training and test sets to evaluate model performance:
+# Dividimos los datos en conjuntos de entrenamiento y prueba para evaluar el rendimiento del modelo:
+
+from sklearn.model_selection import train_test_split
+
+# Split balanced data
+# Dividir datos balanceados
+X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_balanced, test_size=0.3, random_state=42)
+
+# Verify sizes of assemblies
+# Verificar tamaños de los conjuntos
+print("Tamaño de X_train:", X_train.shape)
+print("Tamaño de X_test:", X_test.shape)
+print("Distribución de y_train:", y_train.value_counts())
+print("Distribución de y_test:", y_test.value_counts())
+
+```
+
+    Tamaño de X_train: (662, 5)
+    Tamaño de X_test: (284, 5)
+    Distribución de y_train: hit
+    1    343
+    0    319
+    Name: count, dtype: int64
+    Distribución de y_test: hit
+    0    154
+    1    130
+    Name: count, dtype: int64
+    
+
+
+```python
+# We train the model using XGBoost, an efficient and robust algorithm:
+# Entrenamos el modelo utilizando XGBoost, un algoritmo eficiente y robusto:
+
+from xgboost import XGBClassifier
+from sklearn.metrics import classification_report, confusion_matrix
+
+# Create and train the model
+# Crear y entrenar el modelo
+model = XGBClassifier(random_state=42,  eval_metric="logloss")
+model.fit(X_train, y_train)
+
+# Making predictions on the test set
+# Hacer predicciones en el conjunto de prueba
+y_pred = model.predict(X_test)
+
+# Evaluating performance
+# Evaluar el rendimiento
+print("Reporte de clasificación:")
+print(classification_report(y_test, y_pred))
+
+# Confusion matrix
+# Matriz de confusión
+print("Matriz de confusión:")
+print(confusion_matrix(y_test, y_pred))
+
+```
+
+    Reporte de clasificación:
+                  precision    recall  f1-score   support
+    
+               0       1.00      0.98      0.99       154
+               1       0.98      1.00      0.99       130
+    
+        accuracy                           0.99       284
+       macro avg       0.99      0.99      0.99       284
+    weighted avg       0.99      0.99      0.99       284
+    
+    Matriz de confusión:
+    [[151   3]
+     [  0 130]]
+    
+
+
+```python
+# Adjusted hyperparameters
+# Hiperparámetros ajustados
+model = XGBClassifier(
+    max_depth=3,  # Reducir complejidad del árbol
+    min_child_weight=5,  # Evitar hojas con pocos datos
+    reg_lambda=1,  # Regularización L2
+    reg_alpha=1,  # Regularización L1
+    random_state=42,
+    eval_metric="logloss"
+)
+
+# Retraining
+# Reentrenar
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+
+# Reassess performance
+# Revaluar desempeño
+from sklearn.metrics import classification_report, confusion_matrix
+print("Reporte de clasificación ajustado:")
+print(classification_report(y_test, y_pred))
+
+# Save the trained model for XGBoost
+# Guardar el modelo entrenado para XGBoost
+import joblib
+joblib.dump(model, "C:/Polimeromics/models/xgboost_model.pkl")
+```
+
+    Reporte de clasificación ajustado:
+                  precision    recall  f1-score   support
+    
+               0       0.99      0.98      0.99       154
+               1       0.98      0.99      0.98       130
+    
+        accuracy                           0.99       284
+       macro avg       0.99      0.99      0.99       284
+    weighted avg       0.99      0.99      0.99       284
+    
+    
+
+
+
+
+    ['C:/Polimeromics/models/xgboost_model.pkl']
+
+
+
+
+```python
+from sklearn.model_selection import StratifiedKFold
+from sklearn.metrics import f1_score
+
+# Custom cross validation
+# Validación cruzada personalizada
+cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+scores = []
+
+for train_idx, val_idx in cv.split(X_balanced, y_balanced):
+    X_train_cv, X_val_cv = X_balanced.iloc[train_idx], X_balanced.iloc[val_idx]
+    y_train_cv, y_val_cv = y_balanced.iloc[train_idx], y_balanced.iloc[val_idx]
+    
+    # Create a new model for each iteration
+    # Crear un nuevo modelo para cada iteración
+    model_cv = XGBClassifier(
+        max_depth=3,
+        min_child_weight=5,
+        reg_lambda=1,
+        reg_alpha=1,
+        random_state=42,
+        eval_metric="logloss"
+    )
+    model_cv.fit(X_train_cv, y_train_cv)
+    y_val_pred = model_cv.predict(X_val_cv)
+    
+    # Calculate F1-Score for this iteration
+    # Calcular F1-Score para esta iteración
+    scores.append(f1_score(y_val_cv, y_val_pred, average='weighted'))
+
+# Average F1-Score
+# Promedio de F1-Score
+print("F1-score promedio en validación cruzada:", sum(scores) / len(scores))
+
+```
+
+    F1-score promedio en validación cruzada: 0.9767383656238682
+    
