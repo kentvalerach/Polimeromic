@@ -71,7 +71,7 @@ The project features two dashboards designed to explore data and provide detaile
 - **Reports**: Cleaning and verification details:
   - [Reports](https://github.com/kentvalerach/Polimeromic/tree/main/reports)
 - **Visualizations**: Additional plots linked to each script.
-  - [Reports](https://github.com/kentvalerach/Polimeromic/tree/main/Visualizations)
+  - [Visualizations](https://github.com/kentvalerach/Polimeromic/tree/main/Visualizations)
 
 ---
 
