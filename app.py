@@ -144,8 +144,7 @@ def update_record(prev_clicks, next_clicks, db_value):
 
 
 # Run the server
-from dash import Dash
+if __name__ == "__main__":
+    app.run_server(debug=True)
 
-app = Dash(__name__)  
-server = app.server  
 
